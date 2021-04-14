@@ -1,0 +1,1876 @@
+[12:22:57] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[12:22:58] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[12:22:59] [Worker-Main-2/INFO]: Loaded 7 recipes
+[12:23:01] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[12:23:01] [Server thread/INFO]: Loading properties
+[12:23:02] [Server thread/INFO]: This server is running Paper version git-Paper-253 (MC: 1.16.3) (Implementing API version 1.16.3-R0.1-SNAPSHOT)
+[12:23:02] [Server thread/WARN]: Couldn't load server icon
+java.lang.IllegalArgumentException: Must be 64 pixels wide
+	at org.apache.commons.lang.Validate.isTrue(Validate.java:136) ~[patched_1.16.3.jar:git-Paper-253]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.loadServerIcon0(CraftServer.java:1983) ~[patched_1.16.3.jar:git-Paper-253]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.loadServerIcon0(CraftServer.java:1971) ~[patched_1.16.3.jar:git-Paper-253]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.loadIcon(CraftServer.java:984) ~[patched_1.16.3.jar:git-Paper-253]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.<init>(CraftServer.java:352) ~[patched_1.16.3.jar:git-Paper-253]
+	at net.minecraft.server.v1_16_R2.PlayerList.<init>(PlayerList.java:82) ~[patched_1.16.3.jar:git-Paper-253]
+	at net.minecraft.server.v1_16_R2.DedicatedPlayerList.<init>(SourceFile:16) ~[patched_1.16.3.jar:git-Paper-253]
+	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:155) ~[patched_1.16.3.jar:git-Paper-253]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:939) ~[patched_1.16.3.jar:git-Paper-253]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-253]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[12:23:02] [Server thread/INFO]: Debug logging is disabled
+[12:23:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:23:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:23:02] [Server thread/INFO]: Default game type: SURVIVAL
+[12:23:02] [Server thread/INFO]: Generating keypair
+[12:23:02] [Server thread/INFO]: Starting Minecraft server on *:1025
+[12:23:02] [Server thread/INFO]: Using epoll channel type
+[12:23:04] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.2.2-b812
+[12:23:04] [Server thread/INFO]: [BedWars] Loading BedWars v0.2.15
+[12:23:04] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.22.0
+[12:23:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:23:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:23:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:23:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:23:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:23:04] [Server thread/INFO]: Preparing level "world"
+[12:23:04] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:23:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:23:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:23:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:23:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:23:04] [Server thread/INFO]: Max TNT Explosions: 100
+[12:23:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:23:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:23:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:23:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:23:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:23:04] [Server thread/INFO]: View Distance: 10
+[12:23:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:23:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:23:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:23:04] [Server thread/INFO]: Mob Spawn Range: 8
+[12:23:04] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:23:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:23:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:23:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:23:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:23:04] [Server thread/INFO]: Max TNT Explosions: 100
+[12:23:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:23:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:23:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:23:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:23:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:23:04] [Server thread/INFO]: View Distance: 10
+[12:23:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:23:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:23:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:23:04] [Server thread/INFO]: Mob Spawn Range: 8
+[12:23:04] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:23:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:23:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:23:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:23:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:23:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:23:04] [Server thread/INFO]: Max TNT Explosions: 100
+[12:23:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:23:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:23:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:23:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:23:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:23:04] [Server thread/INFO]: View Distance: 10
+[12:23:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:23:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:23:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:23:04] [Server thread/INFO]: Mob Spawn Range: 8
+[12:23:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:23:05] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[12:23:05] [Server thread/INFO]: Preparing spawn area: 0%
+[12:23:05] [Server thread/INFO]: Preparing spawn area: 0%
+[12:23:05] [Server thread/INFO]: Preparing spawn area: 0%
+[12:23:06] [Server thread/INFO]: Preparing spawn area: 7%
+[12:23:06] [Server thread/INFO]: Preparing spawn area: 9%
+[12:23:07] [Server thread/INFO]: Preparing spawn area: 85%
+[12:23:07] [Server thread/INFO]: Time elapsed: 2762 ms
+[12:23:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:23:07] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[12:23:07] [Server thread/INFO]: Preparing spawn area: 0%
+[12:23:07] [Server thread/INFO]: Preparing spawn area: 9%
+[12:23:08] [Server thread/INFO]: Time elapsed: 790 ms
+[12:23:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:23:08] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[12:23:08] [Server thread/INFO]: Time elapsed: 246 ms
+[12:23:08] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.2.2-b812
+[12:23:08] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.2.2-b812" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[12:23:08] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[12:23:08] [Server thread/INFO]: -------- World Settings For [lobby1] --------
+[12:23:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:23:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:23:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:23:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:23:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:23:08] [Server thread/INFO]: Max TNT Explosions: 100
+[12:23:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:23:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:23:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:23:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:23:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:23:08] [Server thread/INFO]: View Distance: 10
+[12:23:08] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:23:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:23:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:23:08] [Server thread/INFO]: Mob Spawn Range: 8
+[12:23:08] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby1
+[12:23:08] [Server thread/INFO]: Loaded 0 spawn chunks for world lobby1
+[12:23:09] [Server thread/INFO]: Preparing spawn area: 0%
+[12:23:09] [Server thread/INFO]: Preparing spawn area: 0%
+[12:23:09] [Server thread/INFO]: Preparing spawn area: 0%
+[12:23:10] [Server thread/INFO]: Preparing spawn area: 27%
+[12:23:10] [Server thread/INFO]: Preparing spawn area: 27%
+[12:23:10] [Server thread/INFO]: Time elapsed: 2157 ms
+[12:23:10] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[12:23:11] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[12:23:11] [Server thread/INFO]: [Multiverse-Core] Version 4.2.2-b812 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[12:23:11] [Server thread/INFO]: [BedWars] Enabling BedWars v0.2.15
+[12:23:11] [Server thread/INFO]: [BedWars] Successfully loaded messages for BedWars! Language: English
+[12:23:11] [Server thread/INFO]: [BedWars] Loading statistics from YAML-File ...
+[12:23:12] [Server thread/INFO]: ================  by ScreamingSandals <Misat11, Ceph>
+[12:23:12] [Server thread/INFO]: + BedWars Zero +  Version: 0.2.15
+[12:23:12] [Server thread/INFO]: ================  STABLE VERSION
+[12:23:12] [Server thread/INFO]: Everything is loaded! If you like our work, consider visiting our Patreon! <3
+[12:23:12] [Server thread/INFO]: https://www.patreon.com/screamingsandals
+[12:23:12] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.22.0
+[12:23:12] [Server thread/INFO]: Starting remote control listener
+[12:23:12] [Server thread/INFO]: Thread RCON Listener started
+[12:23:12] [Server thread/INFO]: RCON running on 0.0.0.0:1026
+[12:23:12] [Server thread/ERROR]: Couldn't load server icon
+java.lang.IllegalStateException: Must be 64 pixels wide
+	at org.bukkit.craftbukkit.libs.org.apache.commons.lang3.Validate.validState(Validate.java:829) ~[patched_1.16.3.jar:git-Paper-253]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1172) ~[patched_1.16.3.jar:git-Paper-253]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:943) ~[patched_1.16.3.jar:git-Paper-253]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-253]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[12:23:12] [Server thread/INFO]: Running delayed init tasks
+[12:23:12] [Server thread/INFO]: Done (10.490s)! For help, type "help"
+[12:23:12] [Server thread/INFO]: Timings Reset
+[12:23:15] [Log4j2-TF-1-AsyncLogger[AsyncContext@5bc2b487]-1/INFO]: [DiscordSRV] [JDA] Login Successful!
+[12:23:16] [Log4j2-TF-1-AsyncLogger[AsyncContext@5bc2b487]-1/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[12:23:17] [pool-9-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (41b8f04815b028463cbccec42664943b94c199a6)
+[12:23:17] [Log4j2-TF-1-AsyncLogger[AsyncContext@5bc2b487]-1/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[12:23:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:AwesomeSMP - A Awesome SMP For Buddies(830649959782547506)
+[12:23:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:info(830650616794710056)
+[12:23:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:rules(831419887347695626)
+[12:23:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:whitelist(831423697620435046)
+[12:23:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server-info(831427397629902889)
+[12:23:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:announcements(831417885447684096)
+[12:23:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcome(831401638828703755)
+[12:23:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(830649959782547508)
+[12:23:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-commands(830651994883883080)
+[12:23:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:clips-and-highlights(830649959782547509)
+[12:23:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft(830652016983277598)
+[12:23:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
+[12:23:17] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] Not using JDBC because the JDBC connection string is invalid!
+[12:23:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
+[12:23:17] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] Group synchronization failed: Vault classes couldn't be found (did it enable properly?). Vault is required for synchronization to work.
+[12:24:06] [User Authenticator #1/INFO]: UUID of player HenryBoi2 is 59331950-84b9-378b-8005-ef835ce59738
+[12:24:07] [Server thread/INFO]: HenryBoi2 joined the game
+[12:24:07] [Server thread/INFO]: HenryBoi2[/127.0.0.1:45084] logged in with entity id 655 at ([world]83.5, 82.0, -509.5)
+[12:24:08] [Craft Scheduler Thread - 4/ERROR]: [DiscordSRV] Your AvatarUrl does not contain the {username} placeholder even though this server is using offline UUIDs.
+[12:24:08] [Craft Scheduler Thread - 4/ERROR]: [DiscordSRV] https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} will be used because the default value does not support offline mode servers
+[12:24:08] [Craft Scheduler Thread - 4/ERROR]: [DiscordSRV] You should set your AvatarUrl to https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} (or another url that supports usernames) to get rid of this error
+[12:24:10] [User Authenticator #1/INFO]: UUID of player AwesomeKidsYT is 213a609a-b0c7-36f5-a996-188170701b78
+[12:24:10] [Server thread/INFO]: AwesomeKidsYT joined the game
+[12:24:10] [Server thread/INFO]: AwesomeKidsYT[/127.0.0.1:45096] logged in with entity id 669 at ([lobby1]-131.57432973099645, 225.0, 39.72091204366167)
+[12:24:12] [User Authenticator #1/INFO]: UUID of player GreenieRaids is 9af0517a-2e6e-3371-a940-5f7e108aa9bb
+[12:24:12] [Server thread/INFO]: GreenieRaids joined the game
+[12:24:12] [Server thread/INFO]: GreenieRaids[/127.0.0.1:45102] logged in with entity id 672 at ([world]87.5, 83.0, -499.5)
+[12:24:19] [Server thread/INFO]: HenryBoi2 issued server command: /warp smp
+[12:24:23] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv tp 2v2
+[12:24:26] [Async Chat Thread - #0/INFO]: []<AwesomeKidsYT> WAIT
+[12:24:31] [Async Chat Thread - #0/INFO]: []<AwesomeKidsYT> EVERYTHING GOT RESET
+[12:24:34] [Async Chat Thread - #0/INFO]: []<HenryBoi2> WSTFS
+[12:24:36] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv tp GreenieRaids
+[12:24:37] [Async Chat Thread - #0/INFO]: []<GreenieRaids> do /mv tp smp
+[12:24:44] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv tp smp
+[12:24:47] [Server thread/INFO]: HenryBoi2 issued server command: /mv tp smp
+[12:24:48] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv tp smp
+[12:24:49] [Server thread/INFO]: GreenieRaids issued server command: /mv tp smp
+[12:24:50] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv list
+[12:24:59] [Async Chat Thread - #0/INFO]: [lobby1]<AwesomeKidsYT> THE FUKING SMP GOT DELTED
+[12:25:04] [Async Chat Thread - #0/INFO]: [world]<GreenieRaids> UH OH
+[12:25:08] [Async Chat Thread - #0/INFO]: [world]<GreenieRaids> how
+[12:25:10] [Async Chat Thread - #0/INFO]: [lobby1]<AwesomeKidsYT> WHO EVER DID THIS
+[12:25:11] [Async Chat Thread - #0/INFO]: [world]<HenryBoi2> WHAT HGSAPPEND
+[12:25:22] [Async Chat Thread - #0/INFO]: [lobby1]<AwesomeKidsYT> we did not /save
+[12:25:28] [Async Chat Thread - #0/INFO]: [world]<GreenieRaids> UH OH
+[12:25:28] [Server thread/INFO]: AwesomeKidsYT issued server command: /tp HenryBoi2
+[12:25:28] [Server thread/INFO]: [AwesomeKidsYT: Teleported AwesomeKidsYT to HenryBoi2]
+[12:25:30] [Async Chat Thread - #0/INFO]: [world]<GreenieRaids> i say
+[12:25:32] [Async Chat Thread - #0/INFO]: [world]<GreenieRaids> but o forgot
+[12:25:34] [Async Chat Thread - #0/INFO]: [world]<HenryBoi2> i was just mining dirt
+[12:25:36] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv create smp
+[12:25:48] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv create smp normal
+[12:25:48] [Server thread/INFO]: AwesomeKidsYT: Starting creation of world 'smp'...
+[12:25:48] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'smp' - Env: NORMAL - Type: NORMAL
+[12:25:48] [Server thread/INFO]: -------- World Settings For [smp] --------
+[12:25:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:25:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:25:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:25:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:25:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:25:48] [Server thread/INFO]: Max TNT Explosions: 100
+[12:25:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:25:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:25:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:25:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:25:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:25:48] [Server thread/INFO]: View Distance: 10
+[12:25:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:25:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:25:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:25:48] [Server thread/INFO]: Mob Spawn Range: 8
+[12:25:54] [Server thread/INFO]: Preparing start region for dimension minecraft:smp
+[12:25:54] [Server thread/INFO]: Loaded 0 spawn chunks for world smp
+[12:25:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:25:54] [Server thread/INFO]: Time elapsed: 439 ms
+[12:25:54] [Server thread/INFO]: AwesomeKidsYT: Complete!
+[12:25:54] [Async Chat Thread - #0/INFO]: [world]<GreenieRaids> uh oh we dont do /save all
+[12:25:55] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv tp smp
+[12:26:04] [Server thread/INFO]: GreenieRaids issued server command: /mv tp smp
+[12:26:05] [Server thread/INFO]: AwesomeKidsYT issued server command: /tp GreenieRaids AwesomeKidsYT
+[12:26:05] [Server thread/INFO]: [AwesomeKidsYT: Teleported GreenieRaids to AwesomeKidsYT]
+[12:26:12] [Server thread/INFO]: AwesomeKidsYT issued server command: /tp 9af0517a-2e6e-3371-a940-5f7e108aa9bb
+[12:26:12] [Server thread/INFO]: [AwesomeKidsYT: Teleported AwesomeKidsYT to GreenieRaids]
+[12:26:14] [Async Chat Thread - #0/INFO]: []<GreenieRaids> do /mv tp smp
+[12:26:17] [Async Chat Thread - #0/INFO]: []<GreenieRaids> henry
+[12:26:19] [Server thread/INFO]: HenryBoi2 issued server command: /mv tp smp
+[12:26:20] [Server thread/INFO]: AwesomeKidsYT issued server command: /clear
+[12:26:20] [Server thread/INFO]: [AwesomeKidsYT: Removed 72 items from player AwesomeKidsYT]
+[12:26:24] [Async Chat Thread - #0/INFO]: []<AwesomeKidsYT> GREAT
+[12:26:29] [Async Chat Thread - #0/INFO]: []<AwesomeKidsYT> GREAT,
+[12:26:34] [Async Chat Thread - #0/INFO]: [world]<HenryBoi2> it didnt tp me
+[12:26:35] [Async Chat Thread - #0/INFO]: []<GreenieRaids> its ok we will build again
+[12:26:49] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv create 1v1v1 Sky
+[12:26:50] [Async Chat Thread - #0/INFO]: [world]<HenryBoi2> tp me pls
+[12:26:51] [Async Chat Thread - #0/INFO]: []<GreenieRaids> make me op awesome
+[12:26:55] [Async Chat Thread - #0/INFO]: []<GreenieRaids> so i tp henry
+[12:27:01] [Async Chat Thread - #0/INFO]: []<GreenieRaids> its ok we 3 build all again
+[12:27:12] [Async Chat Thread - #0/INFO]: []<AwesomeKidsYT> OK
+[12:27:18] [Async Chat Thread - #0/INFO]: [world]<HenryBoi2> am alone :')
+[12:27:21] [Async Chat Thread - #0/INFO]: []<AwesomeKidsYT> im sad that my builds are gone
+[12:27:29] [Server thread/INFO]: AwesomeKidsYT issued server command: /tp HenryBoi2 AwesomeKidsYT
+[12:27:29] [Server thread/INFO]: [AwesomeKidsYT: Teleported HenryBoi2 to AwesomeKidsYT]
+[12:27:31] [Async Chat Thread - #0/INFO]: []<GreenieRaids> its ok dude
+[12:27:38] [Async Chat Thread - #0/INFO]: []<GreenieRaids> we will make better than that
+[12:27:46] [Async Chat Thread - #0/INFO]: []<AwesomeKidsYT> no i made sky map
+[12:27:49] [Async Chat Thread - #0/INFO]: []<AwesomeKidsYT> its gone
+[12:27:54] [Async Chat Thread - #0/INFO]: []<GreenieRaids> oh noooo
+[12:28:05] [Async Chat Thread - #0/INFO]: []<AwesomeKidsYT> the other map is here
+[12:28:08] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode creative
+[12:28:08] [Server thread/INFO]: [AwesomeKidsYT: Set own game mode to Creative Mode]
+[12:28:18] [Async Chat Thread - #0/INFO]: []<GreenieRaids> just now remember point do /save all to sv progress @everyone
+[12:28:25] [Async Chat Thread - #0/INFO]: []<GreenieRaids> henry
+[12:28:26] [Server thread/INFO]: AwesomeKidsYT has made the advancement [Suit Up]
+[12:28:29] [Async Chat Thread - #0/INFO]: []<GreenieRaids> lets build
+[12:28:32] [Async Chat Thread - #0/INFO]: []<HenryBoi2> kk
+[12:28:47] [Async Chat Thread - #0/INFO]: []<HenryBoi2> op?
+[12:28:52] [Async Chat Thread - #0/INFO]: []<GreenieRaids> oh yea op
+[12:28:57] [Server thread/INFO]: GreenieRaids has made the advancement [Suit Up]
+[12:29:04] [Server thread/INFO]: GreenieRaids has made the advancement [Isn't It Iron Pick]
+[12:29:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Suit Up]
+[12:29:11] [Server thread/INFO]: GreenieRaids issued server command: /op
+[12:29:14] [Server thread/INFO]: HenryBoi2 has made the advancement [Isn't It Iron Pick]
+[12:29:41] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode survival
+[12:29:41] [Server thread/INFO]: [AwesomeKidsYT: Set own game mode to Survival Mode]
+[12:29:47] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode survival @a
+[12:30:17] [Async Chat Thread - #1/INFO]: []<GreenieRaids> ur bedwars maps and things also gone?
+[12:30:21] [Async Chat Thread - #1/INFO]: []<AwesomeKidsYT> no
+[12:30:25] [Async Chat Thread - #1/INFO]: []<GreenieRaids> ok
+[12:30:27] [Async Chat Thread - #1/INFO]: []<AwesomeKidsYT> the old bw map is here
+[12:30:32] [Async Chat Thread - #1/INFO]: []<GreenieRaids> ok
+[12:30:43] [Async Chat Thread - #1/INFO]: []<GreenieRaids> what u doing btw
+[12:30:50] [Async Chat Thread - #1/INFO]: []<AwesomeKidsYT> mining
+[12:30:52] [Server thread/INFO]: AwesomeKidsYT issued server command: /save-all
+[12:30:54] [Server thread/INFO]: [AwesomeKidsYT: Saved the game]
+[12:31:01] [Server thread/INFO]: HenryBoi2 has made the advancement [Stone Age]
+[12:31:03] [Server thread/INFO]: GreenieRaids issued server command: /msg AwesomeKidsYT why we not making all back in creative?
+[12:31:16] [Server thread/INFO]: GreenieRaids has made the advancement [Stone Age]
+[12:31:23] [Server thread/INFO]: AwesomeKidsYT issued server command: /msg GreenieRaids np we make in normal mode
+[12:31:41] [Async Chat Thread - #1/INFO]: []<HenryBoi2> tf
+[12:31:51] [Async Chat Thread - #1/INFO]: []<HenryBoi2> my crafting table is gone fr
+[12:31:51] [Server thread/INFO]: GreenieRaids issued server command: /msg AwesomeKidsYT so lets do it can u op me pls it feels good and tp allowed now!
+[12:32:24] [Async Chat Thread - #1/INFO]: []<AwesomeKidsYT> sry
+[12:32:49] [Async Chat Thread - #1/INFO]: []<HenryBoi2> stop
+[12:33:29] [Async Chat Thread - #1/INFO]: []<HenryBoi2> rlly
+[12:33:30] [Async Chat Thread - #1/INFO]: []<GreenieRaids> lol
+[12:33:34] [Async Chat Thread - #1/INFO]: []<HenryBoi2> im 2 half heart
+[12:35:11] [Async Chat Thread - #2/INFO]: []<HenryBoi2> tf?
+[12:35:20] [Async Chat Thread - #2/INFO]: []<GreenieRaids> our new home ig
+[12:35:34] [Async Chat Thread - #2/INFO]: []<HenryBoi2> a square
+[12:35:46] [Server thread/INFO]: GreenieRaids issued server command: /msg AwesomeKidsYT can u make me op pls so i always save the game
+[12:35:55] [Server thread/INFO]: AwesomeKidsYT issued server command: /op GreenieRaids
+[12:35:55] [Server thread/INFO]: [AwesomeKidsYT: Made GreenieRaids a server operator]
+[12:35:57] [Server thread/INFO]: AwesomeKidsYT issued server command: /op HenryBoi2
+[12:35:57] [Server thread/INFO]: [AwesomeKidsYT: Made HenryBoi2 a server operator]
+[12:36:03] [Async Chat Thread - #2/INFO]: []<GreenieRaids> ty
+[12:36:32] [Async Chat Thread - #2/INFO]: []<GreenieRaids> but when we are offline how can memebers save there progress as /save all is an admin command
+[12:36:43] [Async Chat Thread - #2/INFO]: []<AwesomeKidsYT> no its no
+[12:36:49] [Server thread/INFO]: AwesomeKidsYT issued server command: /deop AwesomeKidsYT
+[12:36:49] [Server thread/INFO]: [AwesomeKidsYT: Made AwesomeKidsYT no longer a server operator]
+[12:36:54] [Async Chat Thread - #2/INFO]: []<GreenieRaids> try
+[12:36:54] [Server thread/INFO]: AwesomeKidsYT issued server command: /save-all
+[12:36:58] [Async Chat Thread - #2/INFO]: []<AwesomeKidsYT> hmm
+[12:37:02] [Async Chat Thread - #2/INFO]: []<AwesomeKidsYT> i deop
+[12:37:04] [Async Chat Thread - #2/INFO]: []<AwesomeKidsYT> myseld
+[12:37:16] [Async Chat Thread - #2/INFO]: []<AwesomeKidsYT> but i cant do the comand
+[12:37:18] [Server thread/INFO]: HenryBoi2 issued server command: /op AwesomeKidsYT
+[12:37:18] [Server thread/INFO]: [HenryBoi2: Made AwesomeKidsYT a server operator]
+[12:37:22] [Async Chat Thread - #2/INFO]: []<AwesomeKidsYT> but its not needed tho
+[12:37:25] [Async Chat Thread - #2/INFO]: []<AwesomeKidsYT> now see
+[12:37:27] [Server thread/INFO]: AwesomeKidsYT lost connection: Disconnected
+[12:37:27] [Server thread/INFO]: AwesomeKidsYT left the game
+[12:37:31] [User Authenticator #2/INFO]: UUID of player AwesomeKidsYT is 213a609a-b0c7-36f5-a996-188170701b78
+[12:37:31] [Server thread/INFO]: AwesomeKidsYT joined the game
+[12:37:31] [Server thread/INFO]: AwesomeKidsYT[/127.0.0.1:55278] logged in with entity id 3757 at ([smp]-16.711215748019775, 65.0, -134.87397751462254)
+[12:37:40] [Async Chat Thread - #2/INFO]: []<GreenieRaids> brb 5min just i m gonna go to get some stuff for my house ok
+[12:37:43] [Async Chat Thread - #2/INFO]: []<AwesomeKidsYT> i still have my items
+[12:37:48] [Async Chat Thread - #2/INFO]: []<AwesomeKidsYT> and i have to do stuff
+[12:37:51] [Async Chat Thread - #2/INFO]: []<AwesomeKidsYT> fot me house
+[12:37:53] [Async Chat Thread - #2/INFO]: []<AwesomeKidsYT> k bye
+[12:37:55] [Server thread/INFO]: AwesomeKidsYT lost connection: Disconnected
+[12:37:55] [Server thread/INFO]: AwesomeKidsYT left the game
+[12:38:00] [Async Chat Thread - #2/INFO]: []<GreenieRaids> i m afk ok here
+[12:38:07] [Server thread/INFO]: GreenieRaids issued server command: /save-all
+[12:38:09] [Server thread/INFO]: [GreenieRaids: Saved the game]
+[12:38:38] [Async Chat Thread - #2/INFO]: []<GreenieRaids> remember to save the game always ok
+[12:38:42] [Async Chat Thread - #2/INFO]: []<HenryBoi2> kk
+[12:38:46] [Async Chat Thread - #2/INFO]: []<GreenieRaids> going afk for 20 or 10mins
+[12:40:54] [Server thread/INFO]: HenryBoi2 issued server command: /save all
+[12:40:58] [Server thread/INFO]: HenryBoi2 issued server command: /save-all
+[12:40:59] [Server thread/INFO]: [HenryBoi2: Saved the game]
+[12:41:33] [Server thread/INFO]: HenryBoi2 has made the advancement [Monster Hunter]
+[12:43:55] [Server thread/INFO]: GreenieRaids lost connection: You have been idle for too long!
+[12:43:55] [Server thread/INFO]: GreenieRaids left the game
+[12:44:02] [Server thread/INFO]: HenryBoi2 issued server command: /save-all
+[12:44:03] [Server thread/INFO]: [HenryBoi2: Saved the game]
+[12:48:54] [Server thread/WARN]: HenryBoi2 moved wrongly!
+[12:49:52] [Server thread/INFO]: HenryBoi2 issued server command: /save-all
+[12:49:53] [Server thread/INFO]: [HenryBoi2: Saved the game]
+[12:49:54] [Server thread/INFO]: HenryBoi2 lost connection: Disconnected
+[12:49:54] [Server thread/INFO]: HenryBoi2 left the game
+[12:53:00] [User Authenticator #3/INFO]: UUID of player HenryBoi2 is 59331950-84b9-378b-8005-ef835ce59738
+[12:53:00] [Server thread/INFO]: HenryBoi2 joined the game
+[12:53:00] [Server thread/INFO]: HenryBoi2[/127.0.0.1:38496] logged in with entity id 5708 at ([smp]-19.947387638227216, 63.0, -139.98933495503076)
+[12:54:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | OWNER BOI] AwesomeKid > sop
+[12:56:56] [Server thread/INFO]: Saving the game (this may take a moment!)
+[12:56:57] [Server thread/INFO]: Saved the game
+[12:57:02] [Server thread/INFO]: [Server] i saved the game
+[12:57:05] [Server thread/INFO]: [Server] exit
+[12:57:12] [Server thread/INFO]: [Server] log off
+[12:57:14] [Server thread/INFO]: [Server] plz
+[12:57:34] [Server thread/INFO]: [Server] im adding another plugin
+[12:58:55] [Server thread/INFO]: No player was found
+[12:58:57] [Server thread/INFO]: There are 1 of a max of 20 players online: HenryBoi2
+[12:59:04] [Server thread/INFO]: HenryBoi2 lost connection: Kicked by an operator
+[12:59:04] [Server thread/INFO]: HenryBoi2 left the game
+[12:59:04] [Server thread/INFO]: Kicked HenryBoi2: Kicked by an operator
+[12:59:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | OWNER BOI] AwesomeKid > sorry henry
+[12:59:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | OWNER BOI] AwesomeKid > had to do it
+[12:59:59] [Server thread/INFO]: Saving the game (this may take a moment!)
+[12:59:59] [Server thread/INFO]: Saved the game
+[13:00:11] [Server thread/INFO]: CONSOLE: Loaded world 'smp'!
+[13:05:29] [User Authenticator #4/INFO]: UUID of player GreenieRaids is 9af0517a-2e6e-3371-a940-5f7e108aa9bb
+[13:05:29] [Server thread/INFO]: GreenieRaids joined the game
+[13:05:29] [Server thread/INFO]: GreenieRaids[/127.0.0.1:48712] logged in with entity id 6496 at ([smp]-22.357693487482702, 60.0, -126.53779270764372)
+[13:05:42] [Server thread/INFO]: GreenieRaids issued server command: /save-all
+[13:05:42] [Server thread/INFO]: [GreenieRaids: Saved the game]
+[13:05:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | OWNER BOI] AwesomeKid > GREENIE
+[13:05:54] [Server thread/INFO]: GreenieRaids has made the advancement [Monster Hunter]
+[13:05:58] [Server thread/INFO]: [Server] GREENIE
+[13:06:02] [Server thread/INFO]: [Server] plz exit
+[13:06:03] [Async Chat Thread - #3/INFO]: []<GreenieRaids> hey server'
+[13:06:07] [Server thread/INFO]: [Server] im adding new map
+[13:06:14] [Async Chat Thread - #3/INFO]: []<GreenieRaids> server thats rude
+[13:06:19] [Async Chat Thread - #3/INFO]: []<GreenieRaids> are ua bot ?
+[13:06:29] [Server thread/INFO]: [Server] Yes Im Not
+[13:06:36] [Server thread/INFO]: [Server] im AwesomeKid
+[13:06:38] [Async Chat Thread - #3/INFO]: []<GreenieRaids> uhhh who are u then?
+[13:06:39] [Async Chat Thread - #3/INFO]: []<GreenieRaids> oh
+[13:06:41] [Async Chat Thread - #3/INFO]: []<GreenieRaids> sorry
+[13:06:46] [Server thread/INFO]: GreenieRaids lost connection: Disconnected
+[13:06:46] [Server thread/INFO]: GreenieRaids left the game
+[13:06:49] [Server thread/INFO]: [Server] No Problem
+[13:07:16] [User Authenticator #5/INFO]: UUID of player HenryBoi2 is 59331950-84b9-378b-8005-ef835ce59738
+[13:07:16] [Server thread/INFO]: HenryBoi2 joined the game
+[13:07:16] [Server thread/INFO]: HenryBoi2[/127.0.0.1:49908] logged in with entity id 6705 at ([smp]-19.30000001192093, 63.0, -137.67537506049874)
+[13:07:46] [Server thread/INFO]: HenryBoi2 lost connection: Disconnected
+[13:07:46] [Server thread/INFO]: HenryBoi2 left the game
+[13:12:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | OWNER BOI] AwesomeKid > sry
+[13:12:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | OWNER BOI] AwesomeKid > yall can play in server
+[13:12:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | OWNER BOI] AwesomeKid > until i say
+[13:13:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | OWNER BOI] AwesomeKid > cuz the map needs to be edited
+[13:14:32] [User Authenticator #6/INFO]: UUID of player GreenieRaids is 9af0517a-2e6e-3371-a940-5f7e108aa9bb
+[13:14:33] [Server thread/INFO]: GreenieRaids joined the game
+[13:14:33] [Server thread/INFO]: GreenieRaids[/127.0.0.1:57596] logged in with entity id 6806 at ([smp]-20.3359310040734, 63.0, -139.87615211124339)
+[13:14:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | OWNER BOI] AwesomeKid > @DizzY ツ  Join
+[13:15:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | OWNER BOI] GreenieRaids > SERVER IS ACTIVE AGAIN
+[13:15:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | OWNER BOI] AwesomeKid > yES
+[13:16:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | OWNER BOI] AwesomeKid > backseat baby gamers
+[13:17:23] [Server thread/INFO]: GreenieRaids has made the advancement [Acquire Hardware]
+[13:18:00] [Server thread/INFO]: GreenieRaids has made the advancement [Sweet Dreams]
+[13:20:11] [User Authenticator #7/INFO]: UUID of player HenryBoi2 is 59331950-84b9-378b-8005-ef835ce59738
+[13:20:11] [Server thread/INFO]: HenryBoi2 joined the game
+[13:20:11] [Server thread/INFO]: HenryBoi2[/127.0.0.1:34526] logged in with entity id 7694 at ([smp]-23.415218417434886, 63.0, -158.1740977219247)
+[13:20:25] [Async Chat Thread - #4/INFO]: []<GreenieRaids> hey
+[13:21:29] [Server thread/INFO]: GreenieRaids has made the advancement [Getting an Upgrade]
+[13:25:11] [Async Chat Thread - #5/INFO]: []<GreenieRaids> should we expand the house?
+[13:25:17] [Async Chat Thread - #5/INFO]: []<HenryBoi2> sure maybe
+[13:25:23] [Async Chat Thread - #5/INFO]: []<GreenieRaids> ok letsdo it
+[13:25:24] [Async Chat Thread - #5/INFO]: []<HenryBoi2> i gtg
+[13:25:27] [Async Chat Thread - #5/INFO]: []<GreenieRaids> ok
+[13:25:27] [Async Chat Thread - #5/INFO]: []<HenryBoi2> mb
+[13:25:29] [Server thread/INFO]: HenryBoi2 lost connection: Disconnected
+[13:25:29] [Server thread/INFO]: HenryBoi2 left the game
+[13:39:37] [Server thread/INFO]: GreenieRaids issued server command: /save-all
+[13:39:38] [Server thread/INFO]: [GreenieRaids: Saved the game]
+[13:45:41] [Server thread/INFO]: GreenieRaids has made the advancement [A Seedy Place]
+[13:47:04] [Server thread/INFO]: GreenieRaids issued server command: /save-all
+[13:47:05] [Server thread/INFO]: [GreenieRaids: Saved the game]
+[13:48:52] [User Authenticator #8/INFO]: UUID of player AwesomeKidsYT is 213a609a-b0c7-36f5-a996-188170701b78
+[13:48:52] [Server thread/INFO]: AwesomeKidsYT joined the game
+[13:48:52] [Server thread/INFO]: AwesomeKidsYT[/127.0.0.1:58382] logged in with entity id 11818 at ([smp]-18.106367628044026, 63.0, -137.00415417727797)
+[13:49:22] [Async Chat Thread - #6/INFO]: []<AwesomeKidsYT> Hello?
+[13:49:54] [Server thread/INFO]: AwesomeKidsYT issued server command: /give AwesomeKidsYT minecraft:cooked_beef 32
+[13:49:54] [Server thread/INFO]: [AwesomeKidsYT: Gave 32 [Steak] to AwesomeKidsYT]
+[13:50:26] [Server thread/INFO]: AwesomeKidsYT issued server command: /tp GreenieRaids
+[13:50:26] [Server thread/INFO]: [AwesomeKidsYT: Teleported AwesomeKidsYT to GreenieRaids]
+[13:50:40] [Async Chat Thread - #7/INFO]: []<GreenieRaids> hey i jsut afk my mining
+[13:51:03] [Server thread/INFO]: AwesomeKidsYT lost connection: Timed out
+[13:51:03] [Server thread/INFO]: AwesomeKidsYT left the game
+[13:51:20] [User Authenticator #9/INFO]: UUID of player AwesomeKidsYT is 213a609a-b0c7-36f5-a996-188170701b78
+[13:51:20] [Server thread/INFO]: AwesomeKidsYT joined the game
+[13:51:20] [Server thread/INFO]: AwesomeKidsYT[/127.0.0.1:60496] logged in with entity id 12377 at ([smp]25.699999988079075, 50.0, -153.69999998807918)
+[13:51:39] [Server thread/INFO]: AwesomeKidsYT issued server command: /tp GreenieRaids
+[13:51:39] [Server thread/INFO]: [AwesomeKidsYT: Teleported AwesomeKidsYT to GreenieRaids]
+[13:53:09] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode creative
+[13:53:09] [Server thread/INFO]: [AwesomeKidsYT: Set own game mode to Creative Mode]
+[13:53:15] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv load Crogorm
+[13:53:59] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv list
+[13:54:06] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv load 2v2
+[13:54:19] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv create 2v2 normal -t flat
+[13:54:19] [Server thread/INFO]: AwesomeKidsYT: Starting creation of world '2v2'...
+[13:54:19] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - '2v2' - Env: NORMAL - Type: FLAT
+[13:54:19] [Server thread/ERROR]: No key layers in MapLike[{}]; No key structures in MapLike[{}]; Not a registry ops
+[13:54:19] [Server thread/INFO]: -------- World Settings For [2v2] --------
+[13:54:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:54:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:54:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[13:54:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:54:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:54:19] [Server thread/INFO]: Max TNT Explosions: 100
+[13:54:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:54:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:54:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:54:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:54:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:54:19] [Server thread/INFO]: View Distance: 10
+[13:54:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:54:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:54:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:54:19] [Server thread/INFO]: Mob Spawn Range: 8
+[13:54:19] [Server thread/INFO]: Preparing start region for dimension minecraft:2v2
+[13:54:20] [Server thread/INFO]: Loaded 0 spawn chunks for world 2v2
+[13:54:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:54:20] [Server thread/INFO]: Time elapsed: 396 ms
+[13:54:20] [Server thread/INFO]: AwesomeKidsYT: Complete!
+[13:54:30] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv tp 2v2
+[13:54:41] [Server thread/INFO]: AwesomeKidsYT issued server command: /difficulty peaceful
+[13:54:41] [Server thread/INFO]: [AwesomeKidsYT: The difficulty has been set to Peaceful]
+[13:54:48] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode creative
+[13:54:48] [Server thread/INFO]: [AwesomeKidsYT: Set own game mode to Creative Mode]
+[13:57:17] [Server thread/INFO]: GreenieRaids drowned
+[13:57:47] [Server thread/INFO]: AwesomeKidsYT lost connection: Disconnected
+[13:57:47] [Server thread/INFO]: AwesomeKidsYT left the game
+[13:57:55] [User Authenticator #10/INFO]: UUID of player AwesomeKidsYT is 213a609a-b0c7-36f5-a996-188170701b78
+[13:57:55] [Server thread/INFO]: AwesomeKidsYT joined the game
+[13:57:55] [Server thread/INFO]: AwesomeKidsYT[/127.0.0.1:37306] logged in with entity id 14155 at ([2v2]94.94818945070041, 4.559667696084301, 143.30000001192093)
+[13:58:25] [Server thread/INFO]: AwesomeKidsYT lost connection: Disconnected
+[13:58:25] [Server thread/INFO]: AwesomeKidsYT left the game
+[13:58:51] [User Authenticator #10/INFO]: UUID of player AwesomeKidsYT is 213a609a-b0c7-36f5-a996-188170701b78
+[13:58:51] [Server thread/INFO]: AwesomeKidsYT joined the game
+[13:58:51] [Server thread/INFO]: AwesomeKidsYT[/127.0.0.1:38008] logged in with entity id 14603 at ([2v2]94.94818945070041, 4.0, 143.30000001192093)
+[13:59:51] [Server thread/INFO]: AwesomeKidsYT issued server command: /tp GreenieRaids
+[13:59:51] [Server thread/INFO]: [AwesomeKidsYT: Teleported AwesomeKidsYT to GreenieRaids]
+[14:00:13] [Server thread/INFO]: AwesomeKidsYT was slain by Zombie
+[14:00:31] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode creative
+[14:00:31] [Server thread/INFO]: [AwesomeKidsYT: Set own game mode to Creative Mode]
+[14:00:35] [Async Chat Thread - #8/INFO]: [world]<AwesomeKidsYT> hoi
+[14:00:48] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv list
+[14:00:59] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv tp smp
+[14:01:06] [Server thread/INFO]: AwesomeKidsYT issued server command: /tp GreenieRaids
+[14:01:06] [Server thread/INFO]: [AwesomeKidsYT: Teleported AwesomeKidsYT to GreenieRaids]
+[14:01:09] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode creative
+[14:01:09] [Server thread/INFO]: [AwesomeKidsYT: Set own game mode to Creative Mode]
+[14:01:11] [Async Chat Thread - #8/INFO]: [smp]<AwesomeKidsYT> bruh
+[14:01:15] [Async Chat Thread - #8/INFO]: [smp]<GreenieRaids> man
+[14:01:25] [Async Chat Thread - #8/INFO]: [smp]<AwesomeKidsYT> what were you even doing afk?!?
+[14:01:26] [Async Chat Thread - #8/INFO]: [smp]<GreenieRaids> i almsot died
+[14:01:30] [Async Chat Thread - #8/INFO]: [smp]<AwesomeKidsYT> ikr
+[14:01:32] [Async Chat Thread - #8/INFO]: [smp]<AwesomeKidsYT> you died
+[14:01:33] [Async Chat Thread - #8/INFO]: [smp]<GreenieRaids> i jsut miningafk
+[14:01:34] [Async Chat Thread - #8/INFO]: [smp]<AwesomeKidsYT> one
+[14:01:54] [Async Chat Thread - #8/INFO]: [smp]<AwesomeKidsYT> how could you mine afk?
+[14:01:59] [Async Chat Thread - #8/INFO]: [smp]<AwesomeKidsYT> autoclicker?
+[14:02:11] [Async Chat Thread - #8/INFO]: [smp]<GreenieRaids> just put a potato on ur w key and other potato on ur left click
+[14:02:15] [Async Chat Thread - #8/INFO]: [smp]<GreenieRaids> ez boom
+[14:02:36] [Async Chat Thread - #8/INFO]: [smp]<GreenieRaids> I CANT SLEEP THO-
+[14:02:42] [Server thread/INFO]: AwesomeKidsYT has made the advancement [Sweet Dreams]
+[14:02:47] [Async Chat Thread - #8/INFO]: [smp]<AwesomeKidsYT> now you can
+[14:02:51] [Server thread/INFO]: AwesomeKidsYT issued server command: /clear
+[14:02:51] [Server thread/INFO]: [AwesomeKidsYT: Removed 1 items from player AwesomeKidsYT]
+[14:02:59] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv tp 2v2
+[14:03:06] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode creative
+[14:03:06] [Server thread/INFO]: [AwesomeKidsYT: Set own game mode to Creative Mode]
+[14:03:38] [Async Chat Thread - #8/INFO]: [smp]<GreenieRaids> why there are no mobs?
+[14:03:47] [Async Chat Thread - #8/INFO]: [2v2]<AwesomeKidsYT> there are a lot of them
+[14:03:49] [Async Chat Thread - #8/INFO]: [smp]<GreenieRaids> like cow sheeps chicken
+[14:03:56] [Async Chat Thread - #8/INFO]: [2v2]<AwesomeKidsYT> what?
+[14:03:57] [Async Chat Thread - #8/INFO]: [2v2]<AwesomeKidsYT> there are
+[14:04:05] [Async Chat Thread - #8/INFO]: [smp]<GreenieRaids> i need food
+[14:04:15] [Async Chat Thread - #8/INFO]: [2v2]<AwesomeKidsYT> check the chest next to my bed
+[14:04:17] [Server thread/INFO]: GreenieRaids issued server command: /give GreenieRaids minecraft:cooked_mutton 2
+[14:04:17] [Server thread/INFO]: [GreenieRaids: Gave 2 [Cooked Mutton] to GreenieRaids]
+[14:04:29] [Async Chat Thread - #8/INFO]: [smp]<GreenieRaids> ok
+[14:04:40] [Async Chat Thread - #8/INFO]: [smp]<GreenieRaids> CREEPER IN OUR HOSUE
+[14:04:47] [Async Chat Thread - #8/INFO]: [2v2]<AwesomeKidsYT> TKILL ITU IUBY
+[14:05:43] [Server thread/INFO]: AwesomeKidsYT issued server command: /clear
+[14:05:43] [Server thread/INFO]: [AwesomeKidsYT: Removed 2 items from player AwesomeKidsYT]
+[14:06:09] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap Add
+[14:06:15] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap lobby
+[14:07:34] [Server thread/INFO]: AwesomeKidsYT issued server command: /setblock ~ ~ ~ minecraft:purple_concrete
+[14:07:34] [Server thread/INFO]: [AwesomeKidsYT: Changed the block at 100, 76, 144]
+[14:09:11] [User Authenticator #11/INFO]: UUID of player VoltZStarKeY is 862b1431-9381-364d-a9ef-7e43ec86668c
+[14:09:11] [Server thread/INFO]: VoltZStarKeY joined the game
+[14:09:11] [Server thread/INFO]: VoltZStarKeY[/127.0.0.1:45964] logged in with entity id 16312 at ([world]72.5, 70.0, -518.5)
+[14:09:19] [Async Chat Thread - #9/INFO]: [smp]<GreenieRaids> welcome
+[14:09:23] [Server thread/INFO]: GreenieRaids issued server command: /save-all
+[14:09:24] [Server thread/INFO]: [GreenieRaids: Saved the game]
+[14:09:26] [Async Chat Thread - #9/INFO]: [world]<VoltZStarKeY> sup
+[14:09:33] [Async Chat Thread - #9/INFO]: [smp]<GreenieRaids> good what about uw
+[14:09:36] [Async Chat Thread - #9/INFO]: [world]<VoltZStarKeY> Im aurora btw
+[14:09:44] [Async Chat Thread - #9/INFO]: [smp]<GreenieRaids> oh hi
+[14:09:50] [Async Chat Thread - #9/INFO]: [world]<VoltZStarKeY> just touched dry ice and froze my finger so not good
+[14:09:54] [Async Chat Thread - #9/INFO]: [smp]<GreenieRaids> do /mv tp smp to coem to smp
+[14:10:01] [Async Chat Thread - #9/INFO]: [smp]<GreenieRaids> lmao
+[14:10:03] [Server thread/INFO]: VoltZStarKeY issued server command: /warp smp
+[14:10:11] [Server thread/INFO]: VoltZStarKeY issued server command: /mv tp smp
+[14:10:18] [Async Chat Thread - #9/INFO]: [world]<VoltZStarKeY> aint tping
+[14:10:23] [Async Chat Thread - #9/INFO]: [smp]<GreenieRaids> ok
+[14:10:34] [Async Chat Thread - #9/INFO]: [world]<VoltZStarKeY> i need to have perms
+[14:10:35] [Async Chat Thread - #9/INFO]: [smp]<GreenieRaids> so let me tp u
+[14:10:49] [Server thread/INFO]: GreenieRaids issued server command: /tp VoltZStarKeY GreenieRaids
+[14:10:49] [Server thread/INFO]: [GreenieRaids: Teleported VoltZStarKeY to GreenieRaids]
+[14:10:53] [Async Chat Thread - #9/INFO]: [smp]<GreenieRaids> welcome my guy
+[14:11:03] [Async Chat Thread - #9/INFO]: [smp]<VoltZStarKeY> greenraids?
+[14:11:06] [Async Chat Thread - #9/INFO]: [smp]<GreenieRaids> yup
+[14:11:16] [Async Chat Thread - #9/INFO]: [smp]<VoltZStarKeY> r u the guy who helped me raid his old base?
+[14:11:17] [Async Chat Thread - #9/INFO]: [smp]<GreenieRaids> i m greenie in discord
+[14:11:22] [Async Chat Thread - #9/INFO]: [smp]<VoltZStarKeY> oh k
+[14:11:25] [Async Chat Thread - #9/INFO]: [smp]<GreenieRaids> lmao
+[14:12:46] [Server thread/INFO]: VoltZStarKeY has made the advancement [Stone Age]
+[14:12:53] [Server thread/INFO]: GreenieRaids issued server command: /msg AwesomeKidsYT what u are doing rn?
+[14:13:22] [Server thread/INFO]: AwesomeKidsYT issued server command: /msg GreenieRaids <Making A BEdwars map>
+[14:13:24] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> its laggy
+[14:13:30] [Async Chat Thread - #10/INFO]: [2v2]<AwesomeKidsYT> no its not lol
+[14:13:44] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> dude i had to try 3 times to make sticks
+[14:13:47] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> no its like good?
+[14:13:59] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> hmm
+[14:14:06] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> it happened sometimes ig its a bug
+[14:14:06] [Async Chat Thread - #10/INFO]: [2v2]<AwesomeKidsYT> its your network
+[14:14:13] [Server thread/INFO]: VoltZStarKeY has made the advancement [Getting an Upgrade]
+[14:14:26] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> dude i have a mbps of 50
+[14:14:31] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> or 200
+[14:14:34] [Async Chat Thread - #10/INFO]: [2v2]<AwesomeKidsYT> server is 1 gbps
+[14:14:42] [Async Chat Thread - #10/INFO]: [2v2]<AwesomeKidsYT> ethernet
+[14:14:56] [Server thread/INFO]: VoltZStarKeY has made the advancement [Monster Hunter]
+[14:15:19] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> FOOD
+[14:15:26] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> oh ok come here
+[14:15:27] [Server thread/INFO]: VoltZStarKeY has made the advancement [Sweet Dreams]
+[14:15:34] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> umm
+[14:15:36] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> thats
+[14:15:37] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> our
+[14:15:41] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> property ig
+[14:15:41] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> kkk
+[14:15:43] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> lmaoo
+[14:16:00] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> thx
+[14:16:04] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> sur welcome
+[14:16:07] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> JONALD
+[14:16:13] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> NOOOOOOOOOOOOOO
+[14:16:30] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> rip jonald
+[14:16:34] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> so u gonna build ur own house lol
+[14:16:37] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> ye
+[14:16:38] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> RIP
+[14:16:55] [Server thread/INFO]: GreenieRaids issued server command: /save-all
+[14:16:56] [Server thread/INFO]: [GreenieRaids: Saved the game]
+[14:17:26] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> server really laggy
+[14:17:32] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> im gonna decrease chunks
+[14:17:46] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> much better
+[14:17:54] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> wait not yet
+[14:17:58] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> hmm i think ok ig its ur fps or network problem?
+[14:18:16] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> wait nvm
+[14:18:21] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> like in the smp for 2 to 3 hrs
+[14:18:29] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> 8 im
+[14:18:29] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> i accidentally opened fortnite
+[14:18:32] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> thats why
+[14:18:35] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> CONGRATS lmaooo
+[14:18:44] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> wait no its the server
+[14:18:48] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> fortnites closed
+[14:18:51] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> .-.
+[14:18:55] [Server thread/INFO]: GreenieRaids issued server command: /save-all
+[14:18:56] [Async Chat Thread - #10/INFO]: [2v2]<AwesomeKidsYT> THe new sky map is so great lol
+[14:18:56] [Server thread/INFO]: [GreenieRaids: Saved the game]
+[14:18:58] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> try rejoin?
+[14:19:02] [Async Chat Thread - #10/INFO]: [2v2]<AwesomeKidsYT> 1v1v1v1
+[14:19:05] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> its on 2 chunks and laggy
+[14:19:13] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> we should save right?
+[14:19:19] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> i rlly think now its ur network problem ?
+[14:19:25] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> yeah i saved
+[14:19:28] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> u can rejoin now
+[14:19:33] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> dude my internet fine
+[14:19:34] [Server thread/INFO]: VoltZStarKeY lost connection: Disconnected
+[14:19:34] [Server thread/INFO]: VoltZStarKeY left the game
+[14:19:34] [Server thread/INFO]: GreenieRaids issued server command: /save-all
+[14:19:35] [Server thread/INFO]: [GreenieRaids: Saved the game]
+[14:19:37] [User Authenticator #12/INFO]: UUID of player VoltZStarKeY is 862b1431-9381-364d-a9ef-7e43ec86668c
+[14:19:37] [Server thread/INFO]: VoltZStarKeY joined the game
+[14:19:37] [Server thread/INFO]: VoltZStarKeY[/127.0.0.1:53976] logged in with entity id 18134 at ([smp]-35.30000001192093, 52.0, -159.50736994348233)
+[14:19:47] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> now?
+[14:19:51] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> fine
+[14:19:56] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> ok
+[14:20:04] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> k its laggy again
+[14:20:14] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> .-.
+[14:20:14] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> check how much cp its taking up
+[14:20:21] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> ok
+[14:20:36] [Server thread/INFO]: GreenieRaids issued server command: /msg AwesomeKidsYT can u check how much cp it taking up?
+[14:21:10] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> wait what kind of lag u facing>
+[14:21:11] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> ?
+[14:21:16] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> fps
+[14:21:21] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> and crafting
+[14:21:30] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> what u trying to craft?
+[14:21:35] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> STICKS
+[14:21:38] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> lmao
+[14:21:42] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> ok let me try making them
+[14:22:13] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> totally ok?
+[14:22:33] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> still facing lag
+[14:22:46] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> ehh its okay
+[14:22:54] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> try making ur video settings lower for fps
+[14:23:03] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> its on 11 chunks
+[14:23:07] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> usually on 32
+[14:23:11] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> with no lag
+[14:23:20] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> like do graphic fancy to fast
+[14:23:43] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> kind of better
+[14:23:52] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> hmm
+[14:24:06] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> where is milky?
+[14:24:10] [Server thread/INFO]: AwesomeKidsYT lost connection: You have been idle for too long!
+[14:24:10] [Server thread/INFO]: AwesomeKidsYT left the game
+[14:24:10] [Server thread/INFO]: GreenieRaids issued server command: /whitelist list
+[14:24:17] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> milky ?
+[14:24:24] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> awesome
+[14:24:34] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> is milky
+[14:24:37] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> yeah he just maybe go to eat or smth
+[14:24:46] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> no his base
+[14:24:53] [Async Chat Thread - #10/INFO]: [smp]<GreenieRaids> this is our house
+[14:24:56] [Async Chat Thread - #10/INFO]: [smp]<VoltZStarKeY> oh
+[14:25:19] [Server thread/INFO]: GreenieRaids issued server command: /msg VoltZStarKeY u watch dream smp?
+[14:25:27] [Server thread/INFO]: VoltZStarKeY issued server command: /tell GreenieRaids yes
+[14:25:51] [Server thread/INFO]: GreenieRaids issued server command: /msg VoltZStarKeY i got inspired from him to make an SMP and awesome/milky help me
+[14:26:14] [Server thread/INFO]: VoltZStarKeY issued server command: /tell GreenieRaids this is ur smp?
+[14:26:42] [Server thread/INFO]: VoltZStarKeY issued server command: /tell GreenieRaids thought it was milky's
+[14:26:47] [Server thread/INFO]: GreenieRaids issued server command: /msg VoltZStarKeY not mine like i m co-owner but the maker of this SMP is milky he made it
+[14:26:53] [Server thread/INFO]: GreenieRaids issued server command: /msg VoltZStarKeY he is the owner
+[14:27:15] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> is keepinv on?
+[14:27:20] [User Authenticator #13/INFO]: UUID of player AwesomeKidsYT is 213a609a-b0c7-36f5-a996-188170701b78
+[14:27:20] [Server thread/INFO]: AwesomeKidsYT joined the game
+[14:27:20] [Server thread/INFO]: AwesomeKidsYT[/127.0.0.1:60364] logged in with entity id 19318 at ([2v2]109.95544120986933, 85.00678133942019, 138.82879182433075)
+[14:27:24] [Server thread/INFO]: AwesomeKidsYT fell from a high place
+[14:27:25] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> oh he is back
+[14:27:26] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> no
+[14:27:29] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> it is not on
+[14:27:35] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> it is kinda cheating so yeah
+[14:27:42] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> what
+[14:27:45] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> i just ate dinner
+[14:27:47] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> disable mobgriefing
+[14:27:52] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode creative
+[14:27:52] [Server thread/INFO]: [AwesomeKidsYT: Set own game mode to Creative Mode]
+[14:27:56] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> what is dat?
+[14:28:04] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> what?
+[14:28:12] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> like when creepers explode they dont destroy blocks
+[14:28:17] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> oh ok
+[14:28:23] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> idk bout that
+[14:28:26] [Server thread/INFO]: AwesomeKidsYT issued server command: /clear
+[14:28:26] [Server thread/INFO]: [AwesomeKidsYT: Removed 1 items from player AwesomeKidsYT]
+[14:28:26] [Server thread/INFO]: GreenieRaids issued server command: /gamerule mobGriefing false
+[14:28:26] [Server thread/INFO]: [GreenieRaids: Gamerule mobGriefing is now set to: false]
+[14:28:28] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> me too
+[14:28:45] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> its /gameruly MobGriefing false
+[14:28:50] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> ok
+[14:29:01] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> i done it
+[14:29:06] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> K nice
+[14:29:08] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> now no explsoion
+[14:29:13] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> oops they done did it again
+[14:29:18] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> also you cant warp
+[14:29:23] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> I KNOW
+[14:29:25] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> I KNOW
+[14:29:26] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> its says u need perms
+[14:29:27] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> ILL FIX IT
+[14:29:30] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> kk
+[14:29:32] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> yeah ig the warp command is for admins
+[14:29:36] [Server thread/INFO]: AwesomeKidsYT issued server command: /warp
+[14:29:37] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> for now
+[14:29:44] [Server thread/INFO]: VoltZStarKeY has made the advancement [Acquire Hardware]
+[14:29:49] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> im adding a warp plugin tommorow
+[14:29:54] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> guys i have a plan
+[14:30:06] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> waht
+[14:30:09] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> and we have like 4 active memebers in smp
+[14:30:20] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> can tell it here gonna whisper ut oo
+[14:30:22] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> two
+[14:30:32] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> BECAUSE THAT BOT SHOW OUR MESSAGES
+[14:30:39] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> ill kick it
+[14:30:39] [Server thread/INFO]: VoltZStarKeY has made the advancement [Isn't It Iron Pick]
+[14:30:47] [Server thread/INFO]: GreenieRaids issued server command: /msg AwesomeKidsYT i m planning building a nation in the SMP?
+[14:30:58] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> pro speedrun strat
+[14:31:00] [Server thread/INFO]: GreenieRaids issued server command: /msg VoltZStarKeY i m planning builduing a nation in SMP
+[14:31:00] [Server thread/INFO]: AwesomeKidsYT issued server command: /discordsrv shutdown
+[14:31:37] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> it takes 9 ore to make a sword, pickaxe, axe and shovel
+[14:31:44] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> yup
+[14:31:50] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> yeah we all know that
+[14:32:00] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> k]
+[14:32:13] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> awesome should i give ur iron armor to him lmao?
+[14:32:19] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> nag
+[14:32:20] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> NO
+[14:32:24] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ok lol
+[14:32:26] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> nah
+[14:32:39] [Server thread/INFO]: VoltZStarKeY has made the advancement [Suit Up]
+[14:32:43] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> nvm'
+[14:32:51] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> yo could you give me 2 pieces of iron
+[14:33:02] [Server thread/INFO]: AwesomeKidsYT issued server command: /kick VoltZStarKeY Stealer
+[14:33:02] [Server thread/INFO]: VoltZStarKeY lost connection: Stealer
+[14:33:02] [Server thread/INFO]: VoltZStarKeY left the game
+[14:33:02] [Server thread/INFO]: [AwesomeKidsYT: Kicked VoltZStarKeY: Stealer]
+[14:33:08] [User Authenticator #14/INFO]: UUID of player VoltZStarKeY is 862b1431-9381-364d-a9ef-7e43ec86668c
+[14:33:08] [Server thread/INFO]: VoltZStarKeY joined the game
+[14:33:08] [Server thread/INFO]: VoltZStarKeY[/127.0.0.1:37106] logged in with entity id 20284 at ([smp]-30.500183910783203, 64.02442408821369, -139.25613166386694)
+[14:33:09] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> uh why?
+[14:33:13] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> STEALER
+[14:33:15] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> no
+[14:33:17] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> Wut?
+[14:33:19] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> he made his own
+[14:33:23] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> ok thwn
+[14:33:26] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> u can see the chest lmao
+[14:33:37] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> thanks
+[14:33:40] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> UwU
+[14:33:46] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> ill give you debris soon
+[14:33:53] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> lol ok
+[14:34:07] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> you got any lava pools?
+[14:34:13] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> np
+[14:34:17] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> nah if we have i should make a portal
+[14:34:29] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> there will be desert biomes ig
+[14:34:36] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> making portal w/ lava pool ez
+[14:34:43] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> yup
+[14:34:51] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> im gonna make a nation
+[14:34:58] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> ok
+[14:34:59] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> me too
+[14:35:03] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> i need to brb
+[14:35:06] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ok
+[14:35:10] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> can i be inside ur house
+[14:35:12] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> sure
+[14:35:13] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> imma make a nation too
+[14:35:14] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> nvm
+[14:36:01] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> awesome that was funny when he made his own armor and u kicked him lmao
+[14:36:06] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> back
+[14:36:14] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> oh U SAW NOTHING
+[14:36:18] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> my nation name is gonna be Konton
+[14:36:23] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> hmm
+[14:36:25] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> my 1 name
+[14:36:26] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> is
+[14:36:30] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> japanese for chaos
+[14:36:30] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> EPIC BOOMER
+[14:36:42] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> im planning to cause pure chaos
+[14:36:49] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> i m planning for peace
+[14:37:10] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> so u wanna join my nation and leave urs if not we have to make a vote
+[14:37:25] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> no thanks
+[14:37:29] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> peace is not for me
+[14:37:30] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> TIME TO VOTE
+[14:37:34] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> lets see
+[14:37:36] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> im the dream of the server
+[14:37:37] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> but before that
+[14:37:50] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> I M THE DREAM OF THE SERVER ig so
+[14:38:03] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> no ur wilbursoot of the server
+[14:38:08] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> lmao
+[14:38:15] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> dream will be the owner
+[14:38:20] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> and owner of this server is
+[14:38:26] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> nah like personality trait
+[14:38:26] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> Aawesome
+[14:38:30] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> AWESOMEKID and greenie
+[14:38:34] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> oh nvm
+[14:38:44] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> those 2 are the owners
+[14:39:14] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ok so
+[14:39:23] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> idk man that is confusing i want peaceee
+[14:39:34] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ok brb
+[14:39:37] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> and i want CHAOS
+[14:39:49] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> welp
+[14:39:59] [Server thread/INFO]: AwesomeKidsYT issued server command: /kick VoltZStarKeY Chaos Is Gay
+[14:39:59] [Server thread/INFO]: VoltZStarKeY lost connection: Chaos Is Gay
+[14:39:59] [Server thread/INFO]: VoltZStarKeY left the game
+[14:39:59] [Server thread/INFO]: [AwesomeKidsYT: Kicked VoltZStarKeY: Chaos Is Gay]
+[14:40:02] [User Authenticator #15/INFO]: UUID of player VoltZStarKeY is 862b1431-9381-364d-a9ef-7e43ec86668c
+[14:40:02] [Server thread/INFO]: VoltZStarKeY joined the game
+[14:40:02] [Server thread/INFO]: VoltZStarKeY[/127.0.0.1:44404] logged in with entity id 21306 at ([smp]-35.69999998807907, 52.024424088213685, -159.69999998807907)
+[14:40:08] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> STOP KICKING ME
+[14:40:15] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> back
+[14:40:16] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> chaos is gay
+[14:40:19] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> what happened
+[14:40:25] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> HE KICKED ME
+[14:40:26] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> hey awesome we want peace
+[14:40:30] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> just dont kick him
+[14:40:34] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> voltaz is doing chaos
+[14:40:40] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> and chaos is gay
+[14:40:40] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> its ok
+[14:40:42] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> DUDE IM MINING
+[14:40:45] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> lmaooooo
+[14:40:47] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> lol
+[14:40:50] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> AND THERES NOTHING WRONG WITH BEING GAY
+[14:40:57] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> llolll
+[14:41:00] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> omg
+[14:41:05] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> does this dude hate gays or somethin?
+[14:41:07] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> wat
+[14:41:17] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> plainrock124 says gay is bad
+[14:41:18] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> yeah he hates like ahh chaos stuff
+[14:41:20] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> im q
+[14:41:27] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> quas
+[14:41:33] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> quackity
+[14:41:37] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> awesoem jsut do the SMP memebers what they want
+[14:41:40] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> t
+[14:41:41] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> QUACKITY!
+[14:41:45] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> WHERE ARE YOU
+[14:41:49] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> no he is badboy halo because AWESOME HATES SWEARING
+[14:41:53] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> ,,,
+[14:42:02] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> bruh
+[14:42:03] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> LANAGUAGE
+[14:42:09] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> nvm jking
+[14:42:10] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> im skepy
+[14:42:17] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> im dream of this server
+[14:42:22] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> because i like chaos
+[14:42:25] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> everyone chosing their fav roles lmao so i m techno
+[14:42:31] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> so
+[14:42:34] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> no personality trait
+[14:42:36] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> HEY DREAM
+[14:42:36] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> one more thing
+[14:42:39] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> U MUST BE SCARED OF ME
+[14:42:48] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> lol
+[14:42:49] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> im not scared of you techno
+[14:42:59] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> yeah becasue u are skeepy
+[14:43:01] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> i love skeppy
+[14:43:08] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> dude
+[14:43:11] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> yes
+[14:43:11] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> skeppy is cool
+[14:43:14] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> FRIEDNS
+[14:43:16] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> lol
+[14:43:24] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> yeah skeepy is a chill minded guy
+[14:43:25] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> i owe u so
+[14:43:37] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> i gave ur loan iron back
+[14:43:40] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> you owe me 89.99$
+[14:43:44] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> NO I DEFEAT U DREAM IN 1V1 IN WON 100K$
+[14:43:45] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> n o
+[14:44:04] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> I do ig u dont watch mr beast video where techno kill dream in a 1v1
+[14:44:18] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> but the thing is
+[14:44:20] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> we
+[14:44:21] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> need
+[14:44:23] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> members
+[14:44:26] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> MORE MEMBERS
+[14:44:26] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> yeah
+[14:44:30] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> i can help you with that
+[14:44:35] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> hmm ok
+[14:44:39] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> we have bedwars lol
+[14:44:44] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> u know who is tommyinnit of this SMP?
+[14:44:50] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> who
+[14:44:51] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> i can make ur server look more profesiall
+[14:44:54] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> prototypelight
+[14:44:55] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> Proto
+[14:44:57] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> yup
+[14:44:58] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> profesinal*
+[14:44:59] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> lol
+[14:45:02] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> he is so annyoing
+[14:45:06] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> i suck
+[14:45:09] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> my keyboard
+[14:45:11] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> yeah u can Volt
+[14:45:11] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> CRAP
+[14:45:16] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> LANUAGE
+[14:45:23] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> shit
+[14:45:27] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap pos1
+[14:45:32] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> LANGUAGELANGUAGELANGUAGELANGUAGELANGUAGE
+[14:45:38] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap pos2
+[14:45:58] [Server thread/INFO]: VoltZStarKeY was slain by GreenieRaids
+[14:46:04] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> I M TECHNO BLADE
+[14:46:04] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap store add &a&lSHOP
+[14:46:06] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> Dude.....
+[14:46:13] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> my stuff
+[14:46:14] [Server thread/INFO]: GreenieRaids issued server command: /tp VoltZStarKeY GreenieRaids
+[14:46:14] [Server thread/INFO]: [GreenieRaids: Teleported VoltZStarKeY to GreenieRaids]
+[14:46:22] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> sorry
+[14:46:28] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> MY STUFF AND XP
+[14:46:32] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> thanks
+[14:46:39] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap store add &a&lSHOP
+[14:46:46] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> my pick?
+[14:46:52] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> there u go
+[14:46:55] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap store add &a&lSHOP
+[14:47:03] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> thanks
+[14:47:04] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> sorry for killing btw
+[14:47:11] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> ye its okay
+[14:47:16] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> UwU
+[14:47:22] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap store add &a&lSHOP
+[14:47:26] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> i have no food again
+[14:47:29] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> GREEEEEEEEEAAAAAAAAAAAAT
+[14:47:30] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> u can get revenge if ur nation wons the voting
+[14:47:37] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap store add &a&lSHOP
+[14:47:43] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> can u stop running
+[14:47:45] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> CHHHHHHHHHHHHHIIIIIIIKEEEEEEEN
+[14:47:49] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap store add &a&lSHOP
+[14:47:51] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> oh thanks
+[14:47:57] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ur welcome
+[14:47:59] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap store add &a&lSHOP
+[14:48:11] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap store add &a&lSHOP
+[14:48:14] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> “those that have treated me with kindness, i will repay that kindness tenfold. and those that treat me with injustice, that use me, that hunt me down, that hurt my friends—i shall repay that injustice a thousand times over.”
+[14:48:20] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap store add &a&lSHOP
+[14:48:37] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> - Sun Tzu The Art Of War
+[14:48:55] [Server thread/INFO]: AwesomeKidsYT issued server command: /clear
+[14:48:55] [Server thread/INFO]: [AwesomeKidsYT: Removed 9 items from player AwesomeKidsYT]
+[14:49:01] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ok let me guess Volt is Dream
+[14:49:03] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> i m techno
+[14:49:09] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> and awesome is skeppy
+[14:49:15] [Server thread/INFO]: AwesomeKidsYT issued server command: /clear
+[14:49:15] [Server thread/INFO]: [AwesomeKidsYT: Removed 1 items from player AwesomeKidsYT]
+[14:49:33] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> lemme start building my base
+[14:49:41] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ok make like kind of war
+[14:49:43] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> orrrrrrr mine for diamonds.....
+[14:49:43] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> far
+[14:49:52] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> diamonds are hard to get
+[14:49:58] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> not for me
+[14:49:59] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> only 1 member have 9 diamonds
+[14:50:02] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> in SMP
+[14:50:10] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> i get them like ever minute
+[14:50:15] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team add Red RED
+[14:50:18] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team add Red RED 1
+[14:50:21] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> uhh ok no mods and hax allowed btw lol
+[14:50:25] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team spawn Red
+[14:50:25] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> ye ik
+[14:50:29] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> without hax
+[14:50:30] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team bed
+[14:50:34] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team bed Red
+[14:50:38] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> so i've got a tactic\
+[14:50:46] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> every 30 seconds make a square
+[14:50:49] [Server thread/INFO]: GreenieRaids issued server command: /msg AwesomeKidsYT what u are doing all the time?
+[14:50:54] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> then mine the middle part
+[14:50:59] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> hmm
+[14:51:04] [Server thread/INFO]: AwesomeKidsYT issued server command: /msg AwesomeKidsYT Building a bedwars map
+[14:51:06] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> then change direction
+[14:51:12] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> Hmm
+[14:51:16] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> greenie
+[14:51:19] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> u are smart like dream
+[14:51:20] [Async Chat Thread - #11/INFO]: [2v2]<AwesomeKidsYT> im making a bw map
+[14:51:24] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> yeah awesome?
+[14:51:26] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ok
+[14:51:46] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team add Lime LIME 1
+[14:51:49] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ok i gonna go get some food
+[14:51:52] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> can we start wars?
+[14:51:54] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team spawn Red
+[14:52:01] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> yeah but like we dont have enough members
+[14:52:03] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team bed Lime
+[14:52:08] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> and 1v1 is ez for me
+[14:52:10] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> use the !d bump thing
+[14:52:20] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> what is that?
+[14:52:29] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add iron
+[14:52:30] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> add cracked-minecraft and smp as a tag
+[14:52:38] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> then u get a billion members
+[14:52:41] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add bronze
+[14:52:44] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> u can use cracked minecraft to join SMP
+[14:52:49] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> i m on cracked tho
+[14:52:53] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> me too
+[14:52:58] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> as a tag dude
+[14:52:59] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> nice
+[14:53:07] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add bronze
+[14:53:18] [Server thread/INFO]: GreenieRaids issued server command: /tag VoltZStarKeY add cracked
+[14:53:18] [Server thread/INFO]: [GreenieRaids: Added tag 'cracked' to VoltZStarKeY]
+[14:53:18] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add iron
+[14:53:21] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> now say
+[14:53:28] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> something volt
+[14:53:28] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add iron
+[14:53:34] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> >
+[14:53:35] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add iron
+[14:53:35] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> ?
+[14:53:42] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> i give u a cracked name tag
+[14:53:53] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> wdym
+[14:53:56] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner remove
+[14:54:08] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> idk wait explain what u are saying to get billion users lmao
+[14:54:17] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner remove
+[14:54:18] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> ill tell later
+[14:54:19] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner remove
+[14:54:21] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner remove
+[14:54:23] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner remove
+[14:54:23] [Server thread/INFO]: GreenieRaids has made the advancement [Not Today, Thank You]
+[14:54:30] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner remove
+[14:54:33] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner remove
+[14:54:41] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> gtg soon
+[14:54:45] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add iron
+[14:54:47] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ok
+[14:54:57] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> if i get disconnected that means my internet went off
+[14:54:59] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add gold
+[14:55:03] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> u can tell me in my dm user name GreenieRaids#2522
+[14:55:15] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> i know in the smp discord
+[14:55:26] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add bronze
+[14:55:32] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ok
+[14:55:36] [Server thread/INFO]: GreenieRaids lost connection: Disconnected
+[14:55:36] [Server thread/INFO]: GreenieRaids left the game
+[14:55:41] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team add Green GREEN 1
+[14:55:42] [Server thread/INFO]: VoltZStarKeY has made the advancement [Not Today, Thank You]
+[14:55:42] [User Authenticator #16/INFO]: UUID of player GreenieRaids is 9af0517a-2e6e-3371-a940-5f7e108aa9bb
+[14:55:42] [Server thread/INFO]: GreenieRaids joined the game
+[14:55:43] [Server thread/INFO]: GreenieRaids[/127.0.0.1:55712] logged in with entity id 24317 at ([smp]-16.30000001192093, 71.0, -7.501368254599295)
+[14:55:53] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team spawn Green
+[14:55:57] [Server thread/INFO]: GreenieRaids lost connection: Disconnected
+[14:55:57] [Server thread/INFO]: GreenieRaids left the game
+[14:56:00] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team bed Green
+[14:56:16] [User Authenticator #16/INFO]: UUID of player GreenieRaids is 9af0517a-2e6e-3371-a940-5f7e108aa9bb
+[14:56:16] [Server thread/INFO]: GreenieRaids joined the game
+[14:56:16] [Server thread/INFO]: GreenieRaids[/127.0.0.1:56120] logged in with entity id 24452 at ([smp]-16.30000001192093, 71.0, -7.501368254599295)
+[14:56:22] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ok got lagged
+[14:56:45] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team add Purple PURPLE 1
+[14:56:56] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team add Purple PINK
+[14:57:00] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team add Purple PINK 1
+[14:57:18] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team bed Purple
+[14:57:19] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> helop me
+[14:57:25] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team spawn Purple
+[14:57:31] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> comin
+[14:57:42] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add bronze
+[14:57:56] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add gold
+[14:58:00] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> i need food
+[14:58:01] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add gold
+[14:58:02] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add gold
+[14:58:03] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add gold
+[14:58:04] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spawner add gold
+[14:58:20] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap save
+[14:58:35] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> FOD
+[14:58:44] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap team spawn Lime
+[14:58:48] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap save
+[14:59:06] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spec spawn
+[14:59:09] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spec spawn
+[14:59:13] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spec spawn
+[14:59:16] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spec spawn
+[14:59:18] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap spec spawn
+[14:59:25] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin CustomMap save
+[14:59:29] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> thanks
+[14:59:38] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> gtg soon
+[14:59:38] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ur welcome
+[14:59:41] [Server thread/INFO]: AwesomeKidsYT issued server command: /TP GreenieRaids
+[14:59:41] [Server thread/INFO]: [AwesomeKidsYT: Teleported AwesomeKidsYT to GreenieRaids]
+[14:59:46] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ok
+[14:59:46] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> so
+[14:59:51] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> wanna play bw with me?
+[14:59:58] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> nice map ready
+[15:00:01] [Server thread/INFO]: AwesomeKidsYT issued server command: /clear
+[15:00:01] [Server thread/INFO]: [AwesomeKidsYT: Removed 1 items from player AwesomeKidsYT]
+[15:00:05] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> the best thing about this smp is it is 24/7 no matter if owner or admin is online or offline
+[15:00:17] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> nice
+[15:00:19] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> u
+[15:00:20] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> boy
+[15:00:22] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> destroy
+[15:00:28] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> my pc is so laggy
+[15:00:30] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> did you script it awesome?
+[15:00:31] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> lmao
+[15:00:35] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> yup
+[15:00:36] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> nope
+[15:00:40] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> uh
+[15:00:45] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> i just bought a server
+[15:00:49] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> oh
+[15:00:50] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> service*
+[15:00:56] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> where i host the bot
+[15:00:59] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> i host server'
+[15:01:01] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> love uuuuu
+[15:01:03] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> oh
+[15:01:06] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> o had to code the server tho
+[15:01:13] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> ye
+[15:01:13] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode creative
+[15:01:13] [Server thread/INFO]: [AwesomeKidsYT: Set own game mode to Creative Mode]
+[15:01:18] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> looking good
+[15:01:24] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> CREATIVE MODE
+[15:01:28] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> UH u saw nothing volt
+[15:01:28] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> hey
+[15:01:37] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> keep yall items in this chest
+[15:01:43] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> we gonna play bedwars
+[15:01:47] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> oh
+[15:01:48] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv setspawn
+[15:01:49] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> hmm
+[15:01:50] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> i dont wanna rn
+[15:01:53] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> i gtg soon
+[15:01:53] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> plz
+[15:01:59] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> only one match
+[15:02:02] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> i also gtg soon
+[15:02:04] [Server thread/INFO]: AwesomeKidsYT issued server command: /clear
+[15:02:04] [Server thread/INFO]: [AwesomeKidsYT: Removed 1 items from player AwesomeKidsYT]
+[15:02:12] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> SO I M GONNA BE ALONE AGAIN .-.
+[15:02:14] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> i might get disconnected
+[15:02:20] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> you also come
+[15:02:25] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> and lose everything
+[15:02:33] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> wait wait
+[15:02:35] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> awesome
+[15:02:40] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> yes
+[15:02:41] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> if u were offline
+[15:02:41] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> dude can you give me save perms
+[15:02:44] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> and IP got changed
+[15:02:47] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> how we can play?
+[15:02:54] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> like?
+[15:02:57] [Server thread/INFO]: GreenieRaids issued server command: /save-all
+[15:02:58] [Server thread/INFO]: [GreenieRaids: Saved the game]
+[15:03:00] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> awesome
+[15:03:02] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> why would ip change?
+[15:03:07] [User Authenticator #17/INFO]: UUID of player HenryBoi2 is 59331950-84b9-378b-8005-ef835ce59738
+[15:03:08] [Server thread/INFO]: HenryBoi2 joined the game
+[15:03:08] [Server thread/INFO]: HenryBoi2[/127.0.0.1:41604] logged in with entity id 25881 at ([smp]-26.69122358471486, 63.0, -131.60157983329577)
+[15:03:08] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> could you give me save perms?
+[15:03:12] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> like on restart something
+[15:03:12] [Async Chat Thread - #11/INFO]: [smp]<HenryBoi2> WASSUP
+[15:03:14] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> hey henry
+[15:03:16] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> hey henry also here
+[15:03:21] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> can we play bw
+[15:03:22] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> sup henry
+[15:03:25] [Async Chat Thread - #11/INFO]: [smp]<HenryBoi2> mk sure
+[15:03:26] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> i made new 1v1v1v1 map
+[15:03:31] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> awesome
+[15:03:32] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> and there are 4 people
+[15:03:40] [Server thread/INFO]: AwesomeKidsYT issued server command: /tp HenryBoi2 AwesomeKidsYT
+[15:03:40] [Server thread/INFO]: [AwesomeKidsYT: Teleported HenryBoi2 to AwesomeKidsYT]
+[15:03:48] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> keep items in ender chest
+[15:03:56] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> ok i m gonna put it in chest ig
+[15:03:58] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> can u give me save perms
+[15:04:06] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> like??
+[15:04:13] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> just the perms
+[15:04:23] [Server thread/INFO]: GreenieRaids issued server command: /op VoltZStarKeY
+[15:04:23] [Server thread/INFO]: [GreenieRaids: Made VoltZStarKeY a server operator]
+[15:04:27] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> thanks
+[15:04:27] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> thats not possible!
+[15:04:30] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> dont abuse it awesome will knwo if u do
+[15:04:38] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> u can check console
+[15:04:39] [Server thread/INFO]: HenryBoi2 issued server command: /msg AwesomeKidsYT can i get ender chest?
+[15:04:40] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> lol yah
+[15:04:41] [Server thread/INFO]: VoltZStarKeY issued server command: /save-all
+[15:04:42] [Server thread/INFO]: [VoltZStarKeY: Saved the game]
+[15:04:45] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> yes
+[15:04:50] [Server thread/INFO]: HenryBoi2 issued server command: /msg AwesomeKidsYT or theres already one
+[15:04:58] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> there is aldready one
+[15:05:00] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> now only 4 people are op
+[15:05:07] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> lol yeah
+[15:05:16] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> KEEP YOUR ITEMS! FAST
+[15:05:24] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> give me a sec
+[15:05:28] [Async Chat Thread - #11/INFO]: [smp]<AwesomeKidsYT> ok
+[15:05:30] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> lmao
+[15:05:44] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> lol
+[15:05:47] [Async Chat Thread - #11/INFO]: [smp]<HenryBoi2> lol
+[15:05:48] [Async Chat Thread - #11/INFO]: [smp]<GreenieRaids> woo
+[15:05:52] [Server thread/INFO]: HenryBoi2 has made the advancement [Diamonds!]
+[15:05:54] [Server thread/INFO]: AwesomeKidsYT has made the advancement [Diamonds!]
+[15:05:57] [Server thread/INFO]: GreenieRaids has made the advancement [Diamonds!]
+[15:06:04] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> dude
+[15:06:06] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> bruh
+[15:06:14] [Server thread/INFO]: VoltZStarKeY has made the advancement [Diamonds!]
+[15:06:44] [Server thread/INFO]: HenryBoi2 has made the advancement [Acquire Hardware]
+[15:07:12] [Server thread/INFO]: VoltZStarKeY issued server command: /mv tp smp
+[15:07:18] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> im at smp
+[15:08:19] [Server thread/INFO]: HenryBoi2 issued server command: /mv smp
+[15:08:20] [Async Chat Thread - #11/INFO]: [smp]<VoltZStarKeY> should i tp you henry?
+[15:08:33] [Server thread/INFO]: HenryBoi2 issued server command: /tp VoltZStarKeY
+[15:08:33] [Server thread/INFO]: [HenryBoi2: Teleported HenryBoi2 to VoltZStarKeY]
+[15:08:33] [Server thread/INFO]: VoltZStarKeY issued server command: /tp HenryBoi2 VoltZStarKeY
+[15:08:33] [Server thread/INFO]: [VoltZStarKeY: Teleported HenryBoi2 to VoltZStarKeY]
+[15:09:42] [Server thread/INFO]: HenryBoi2 was slain by VoltZStarKeY
+[15:09:46] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> lol
+[15:10:04] [Server thread/INFO]: AwesomeKidsYT issued server command: /kill GreenieRaids
+[15:10:04] [Server thread/INFO]: [AwesomeKidsYT: Killed GreenieRaids]
+[15:10:35] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> no
+[15:10:42] [Server thread/INFO]: VoltZStarKeY was slain by HenryBoi2
+[15:11:25] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> sorry
+[15:11:29] [Async Chat Thread - #12/INFO]: [smp]<AwesomeKidsYT> oof
+[15:11:33] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> brb
+[15:11:35] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> E EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+[15:11:44] [Async Chat Thread - #12/INFO]: [smp]<AwesomeKidsYT> lol
+[15:11:48] [Async Chat Thread - #12/INFO]: [smp]<AwesomeKidsYT> i lost
+[15:11:53] [Async Chat Thread - #12/INFO]: [smp]<AwesomeKidsYT> i had a big lag spike
+[15:11:56] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> BABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBABABOIBAB
+[15:12:02] [Async Chat Thread - #12/INFO]: [smp]<VoltZStarKeY> thought u were in creative
+[15:12:04] [Async Chat Thread - #12/INFO]: [smp]<AwesomeKidsYT> baba boi
+[15:12:08] [Async Chat Thread - #12/INFO]: [smp]<AwesomeKidsYT> no
+[15:12:19] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> slomo belike LOL
+[15:12:25] [Async Chat Thread - #12/INFO]: [smp]<AwesomeKidsYT> imma make a 2v2 map
+[15:12:34] [Async Chat Thread - #12/INFO]: [smp]<VoltZStarKeY> DUDE STOP
+[15:12:41] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> back
+[15:12:43] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> but
+[15:12:44] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv create twovstwo normal -t flat
+[15:12:44] [Server thread/INFO]: AwesomeKidsYT: Starting creation of world 'twovstwo'...
+[15:12:44] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'twovstwo' - Env: NORMAL - Type: FLAT
+[15:12:44] [Server thread/ERROR]: No key layers in MapLike[{}]; No key structures in MapLike[{}]; Not a registry ops
+[15:12:44] [Server thread/INFO]: -------- World Settings For [twovstwo] --------
+[15:12:44] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:12:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:12:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:12:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:12:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:12:44] [Server thread/INFO]: Max TNT Explosions: 100
+[15:12:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:12:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:12:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:12:44] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:12:44] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:12:44] [Server thread/INFO]: View Distance: 10
+[15:12:44] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:12:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:12:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:12:44] [Server thread/INFO]: Mob Spawn Range: 8
+[15:12:44] [Server thread/INFO]: Preparing start region for dimension minecraft:twovstwo
+[15:12:44] [Server thread/INFO]: Loaded 0 spawn chunks for world twovstwo
+[15:12:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:12:44] [Server thread/INFO]: Time elapsed: 265 ms
+[15:12:44] [Server thread/INFO]: AwesomeKidsYT: Complete!
+[15:12:46] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> wtf
+[15:12:49] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> fast one
+[15:12:50] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> what happening
+[15:12:50] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> lol
+[15:12:51] [Server thread/INFO]: AwesomeKidsYT issued server command: /mv tp twovstwo
+[15:12:58] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode creative
+[15:12:58] [Server thread/INFO]: [AwesomeKidsYT: Set own game mode to Creative Mode]
+[15:13:11] [Server thread/INFO]: HenryBoi2 has made the advancement [Getting an Upgrade]
+[15:13:25] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> can i do smth funny?
+[15:13:39] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> ?
+[15:13:45] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> awesome
+[15:13:49] [Async Chat Thread - #12/INFO]: []<AwesomeKidsYT> yes
+[15:13:53] [Async Chat Thread - #12/INFO]: []<AwesomeKidsYT> what do you want?
+[15:13:55] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> ok
+[15:13:57] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> this
+[15:14:02] [Async Chat Thread - #12/INFO]: []<AwesomeKidsYT> what
+[15:14:10] [Server thread/INFO]: HenryBoi2 issued server command: /advancement grant @s everything
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Who is Cutting Onions?]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Oh Shiny]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Very Very Frightening]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Hot Stuff]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Free the End]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [A Furious Cocktail]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Best Friends Forever]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Bring Home the Beacon]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Not Today, Thank You]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Local Brewery]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has reached the goal [The Next Generation]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Fishy Business]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Hot Tourist Destinations]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [This Boat Has Legs]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Sniper Duel]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Great View From Up Here]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [How Did We Get Here?]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Bullseye]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Spooky Scary Skeleton]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Two by Two]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Two Birds, One Arrow]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [We Need to Go Deeper]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Who's the Pillager Now?]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Tactical Fishing]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has reached the goal [Zombie Doctor]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [The City at the End of the Game]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Ice Bucket Challenge]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Remote Getaway]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Into Fire]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [War Pigs]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Take Aim]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Total Beelocation]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Arbalistic]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has reached the goal [The End... Again...]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Not Quite "Nine" Lives]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Cover Me With Diamonds]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has reached the goal [Sky's the Limit]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has reached the goal [Hired Help]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Return to Sender]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Sweet Dreams]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has reached the goal [You Need a Mint]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Monsters Hunted]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Enchanter]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Voluntary Exile]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Eye Spy]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Serious Dedication]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has reached the goal [Postmortal]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Adventuring Time]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [A Seedy Place]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Those Were the Days]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Hero of the Village]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Hidden in the Depths]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has reached the goal [Beaconator]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Withering Heights]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [A Balanced Diet]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Subspace Bubble]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Country Lode, Take Me Home]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Bee Our Guest]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [What a Deal!]
+[15:14:10] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> henry
+[15:14:10] [Server thread/INFO]: HenryBoi2 has completed the challenge [Uneasy Alliance]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [A Terrible Fortress]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [A Throwaway Joke]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Sticky Situation]
+[15:14:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Ol' Betsy]
+[15:14:11] [Server thread/INFO]: HenryBoi2 has completed the challenge [Cover Me in Debris]
+[15:14:11] [Server thread/INFO]: HenryBoi2 has made the advancement [The End?]
+[15:14:11] [Server thread/INFO]: HenryBoi2 has made the advancement [The Parrots and the Bats]
+[15:14:11] [Server thread/INFO]: HenryBoi2 has completed the challenge [A Complete Catalogue]
+[15:14:11] [Server thread/INFO]: [HenryBoi2: Granted 927 advancements to HenryBoi2]
+[15:14:12] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> lol
+[15:14:16] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> jkjk ill remove it
+[15:14:17] [Async Chat Thread - #12/INFO]: []<AwesomeKidsYT> bruh
+[15:14:19] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> hmm
+[15:14:20] [Async Chat Thread - #12/INFO]: [smp]<VoltZStarKeY> ABUSER
+[15:14:24] [Async Chat Thread - #12/INFO]: [smp]<VoltZStarKeY> lol
+[15:14:28] [Async Chat Thread - #12/INFO]: []<AwesomeKidsYT> abuse
+[15:14:33] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> henry
+[15:14:35] [Server thread/INFO]: AwesomeKidsYT issued server command: /kick HenryBoi2 abuse join back idiot
+[15:14:35] [Server thread/INFO]: HenryBoi2 lost connection: abuse join back idiot
+[15:14:35] [Server thread/INFO]: HenryBoi2 left the game
+[15:14:35] [Server thread/INFO]: [AwesomeKidsYT: Kicked HenryBoi2: abuse join back idiot]
+[15:14:39] [User Authenticator #18/INFO]: UUID of player HenryBoi2 is 59331950-84b9-378b-8005-ef835ce59738
+[15:14:39] [Server thread/INFO]: HenryBoi2 joined the game
+[15:14:39] [Server thread/INFO]: HenryBoi2[/127.0.0.1:43770] logged in with entity id 29462 at ([smp]13.30000001192093, 51.0, -116.64451842685891)
+[15:14:45] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> im trying to remove it bre
+[15:14:45] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> lmao
+[15:14:54] [Async Chat Thread - #12/INFO]: []<AwesomeKidsYT> ;esrned your leson
+[15:15:02] [Server thread/INFO]: HenryBoi2 issued server command: /advancement revoke @s everything
+[15:15:02] [Server thread/INFO]: [HenryBoi2: Revoked 927 advancements from HenryBoi2]
+[15:15:07] [Server thread/INFO]: HenryBoi2 has made the advancement [Getting an Upgrade]
+[15:15:08] [Server thread/INFO]: HenryBoi2 has made the advancement [Stone Age]
+[15:15:09] [Async Chat Thread - #12/INFO]: []<AwesomeKidsYT> want to see something fun?
+[15:15:09] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> lel
+[15:15:11] [Server thread/INFO]: GreenieRaids issued server command: /msg HenryBoi2 dude me and Volt make nation but his nation is for chaos mine for peace
+[15:15:22] [Server thread/INFO]: GreenieRaids issued server command: /msg HenryBoi2 what u wanna vote
+[15:15:28] [Server thread/INFO]: AwesomeKidsYT issued server command: /xp add @a 1919191919 levels
+[15:15:28] [Server thread/INFO]: [AwesomeKidsYT: Gave 1919191919 experience levels to 4 players]
+[15:15:32] [Async Chat Thread - #12/INFO]: []<AwesomeKidsYT> hehe boi
+[15:15:34] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> UHHH
+[15:15:37] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode survival
+[15:15:37] [Server thread/INFO]: [AwesomeKidsYT: Set own game mode to Survival Mode]
+[15:15:40] [Server thread/INFO]: HenryBoi2 issued server command: /msg GreenieRaids peace
+[15:15:43] [Async Chat Thread - #12/INFO]: [smp]<VoltZStarKeY> ABUSWE
+[15:15:46] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> LMFAO
+[15:15:51] [Async Chat Thread - #12/INFO]: [smp]<VoltZStarKeY> lol
+[15:15:56] [Server thread/INFO]: AwesomeKidsYT issued server command: /xp set @a 999999999
+[15:16:02] [Server thread/INFO]: AwesomeKidsYT issued server command: /xp set @a 99999999
+[15:16:04] [Server thread/INFO]: AwesomeKidsYT issued server command: /xp set @a 9999999
+[15:16:04] [Server thread/INFO]: [AwesomeKidsYT: Set 9999999 experience points on 4 players]
+[15:16:04] [Server thread/INFO]: GreenieRaids issued server command: /xp set GreenieRaids 0 68
+[15:16:07] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> LOL
+[15:16:24] [Server thread/INFO]: HenryBoi2 has made the advancement [Suit Up]
+[15:16:25] [Server thread/INFO]: AwesomeKidsYT issued server command: /xp set @a 129 levels
+[15:16:25] [Server thread/INFO]: [AwesomeKidsYT: Set 129 experience levels on 4 players]
+[15:16:30] [Async Chat Thread - #12/INFO]: []<AwesomeKidsYT> better
+[15:16:34] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> yup
+[15:16:35] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode spectator
+[15:16:35] [Server thread/INFO]: [AwesomeKidsYT: Set own game mode to Spectator Mode]
+[15:16:38] [Server thread/INFO]: VoltZStarKeY lost connection: Disconnected
+[15:16:38] [Server thread/INFO]: VoltZStarKeY left the game
+[15:16:39] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> why not 987162354891369853721654821567267529765224972364982546289356789094523945709237564092765092376549023754023645985t89264572369560-471043701874503276502365927450923674509237659327654093245768
+[15:16:39] [Server thread/INFO]: AwesomeKidsYT issued server command: /gamemode creative
+[15:16:39] [Server thread/INFO]: [AwesomeKidsYT: Set own game mode to Creative Mode]
+[15:16:40] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> now no admin abuse or ban
+[15:16:47] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> lol
+[15:17:06] [Server thread/INFO]: GreenieRaids issued server command: /give GreenieRaids minecraft:anvil
+[15:17:06] [Server thread/INFO]: [GreenieRaids: Gave 1 [Anvil] to GreenieRaids]
+[15:17:10] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> uh
+[15:17:11] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> nvm
+[15:17:12] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> t?
+[15:17:31] [Server thread/INFO]: HenryBoi2 has made the advancement [Monster Hunter]
+[15:17:35] [User Authenticator #19/INFO]: UUID of player VoltZStarKeY is 862b1431-9381-364d-a9ef-7e43ec86668c
+[15:17:35] [Server thread/INFO]: VoltZStarKeY joined the game
+[15:17:35] [Server thread/INFO]: VoltZStarKeY[/127.0.0.1:46046] logged in with entity id 30347 at ([smp]6.446531273587224, 64.6362912048217, -143.32689016018963)
+[15:17:41] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> what happend lol
+[15:17:48] [Async Chat Thread - #12/INFO]: [smp]<VoltZStarKeY> had to disconnect
+[15:17:54] [Async Chat Thread - #12/INFO]: [smp]<VoltZStarKeY> spider bout to kill me
+[15:17:56] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> ok wait
+[15:17:57] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> wait
+[15:17:59] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> henry
+[15:18:02] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> now
+[15:18:02] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> ?
+[15:18:08] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> i m gonna ask u a question
+[15:18:10] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> me
+[15:18:12] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> and Volt
+[15:18:15] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> create
+[15:18:24] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> poop
+[15:18:30] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> our nations but his nation is for chaos and my nation for peace
+[15:18:32] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> what
+[15:18:38] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> naion u will vote
+[15:18:44] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> PEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+[15:18:45] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> Ace
+[15:18:49] [Async Chat Thread - #12/INFO]: []<AwesomeKidsYT> me will be peace
+[15:18:52] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> there we go
+[15:18:55] [Async Chat Thread - #12/INFO]: []<AwesomeKidsYT> even tho u no ask me
+[15:19:04] [Server thread/INFO]: GreenieRaids has made the advancement [Ice Bucket Challenge]
+[15:19:07] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> hah
+[15:19:09] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> lmao
+[15:19:11] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> lol
+[15:19:13] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> ty
+[15:19:14] [Async Chat Thread - #12/INFO]: [smp]<VoltZStarKeY> idc
+[15:19:18] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> sorry .-.
+[15:19:21] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> i found a mineshaft LOL
+[15:19:27] [Server thread/INFO]: VoltZStarKeY was slain by Zombie Villager
+[15:19:37] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> uh
+[15:19:55] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> WTF
+[15:19:55] [Async Chat Thread - #12/INFO]: [smp]<VoltZStarKeY> thanks
+[15:20:05] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> I HEARD A SCARY LIKE F SOUND
+[15:20:25] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> teamwork
+[15:20:31] [Async Chat Thread - #12/INFO]: [smp]<VoltZStarKeY> y e s
+[15:20:42] [Async Chat Thread - #12/INFO]: [smp]<GreenieRaids> brb
+[15:20:44] [Server thread/INFO]: HenryBoi2 has made the advancement [Acquire Hardware]
+[15:21:30] [Server thread/INFO]: GreenieRaids was slain by Zombie
+[15:21:38] [Server thread/INFO]: VoltZStarKeY has made the advancement [A Seedy Place]
+[15:21:42] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> OH MY FU HEAL
+[15:21:46] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw addholo leaderboard
+[15:21:53] [Async Chat Thread - #12/INFO]: [smp]<HenryBoi2> 3 MINESHAFTS
+[15:21:57] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw addholo stats
+[15:22:56] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin LighRena Add
+[15:23:01] [Server thread/INFO]: AwesomeKidsYT issued server command: /bw admin LighRena lobby
+[15:23:01] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> need to go mining
+[15:23:05] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> tp to me
+[15:23:09] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> im in mineshaf
+[15:23:10] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> wait
+[15:23:13] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> who kill me
+[15:23:13] [Server thread/INFO]: VoltZStarKeY issued server command: /tp VoltZStarKeY HenryBoi2
+[15:23:13] [Server thread/INFO]: [VoltZStarKeY: Teleported VoltZStarKeY to HenryBoi2]
+[15:23:20] [Server thread/INFO]: AwesomeKidsYT issued server command: /setblock ~ ~ ~ minecraft:shroomlight
+[15:23:20] [Server thread/INFO]: [AwesomeKidsYT: Changed the block at 142, 85, 97]
+[15:23:25] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> WHO KILL ME
+[15:23:33] [Server thread/INFO]: VoltZStarKeY issued server command: /zombie
+[15:23:35] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> zombie
+[15:23:55] [Server thread/INFO]: HenryBoi2 has made the advancement [Isn't It Iron Pick]
+[15:24:12] [Server thread/INFO]: AwesomeKidsYT issued server command: /setblock ~ ~ ~ minecraft:shroomlight
+[15:24:12] [Server thread/INFO]: [AwesomeKidsYT: Changed the block at 120, 87, 97]
+[15:24:16] [Server thread/INFO]: HenryBoi2 has made the advancement [Diamonds!]
+[15:24:22] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> nice house btw volt
+[15:24:36] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> but the thing is ur house is in danger
+[15:24:37] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> thanks
+[15:24:49] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> how tho
+[15:24:50] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> because there will be some members
+[15:24:56] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> that hate good things
+[15:25:04] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> and will burn ur house because it is wood
+[15:25:13] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> :D
+[15:25:20] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> more diamonds :')
+[15:25:33] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> how u geetingg
+[15:25:45] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> i track diamonds
+[15:25:47] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> jk
+[15:25:53] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> GONNA DOWNLOAD XRAY
+[15:25:57] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> NOEW
+[15:25:58] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> jk lmao
+[15:26:06] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> WHO
+[15:26:08] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> STOLE
+[15:26:11] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> MY
+[15:26:12] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> ur mom
+[15:26:13] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> SEEDS
+[15:26:20] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> idk
+[15:26:25] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> HENRYYYY
+[15:26:27] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> DO U
+[15:26:33] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> i was mining the whole time
+[15:26:33] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> “those that have treated me with kindness, i will repay that kindness tenfold. and those that treat me with injustice, that use me, that hunt me down, that hurt my friends—i shall repay that injustice a thousand times over.”
+[15:26:49] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> HENRY
+[15:26:54] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> what
+[15:26:58] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> no u are acutally mining
+[15:27:13] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> wait when u mine a seed U GOT ADVANCEMENT LET ME SEE WHO DID THAT
+[15:27:19] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> volt
+[15:27:21] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> that was me
+[15:27:22] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> i saw Volt
+[15:27:26] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> ill give u
+[15:27:27] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> where u ae rn
+[15:27:29] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> it
+[15:27:30] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> hmm
+[15:27:38] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> I WILL FIND U
+[15:27:42] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> AND I WILL KILL U
+[15:27:43] [Server thread/INFO]: VoltZStarKeY issued server command: /tp VoltZStarKeY GreenieRaids
+[15:27:43] [Server thread/INFO]: [VoltZStarKeY: Teleported VoltZStarKeY to GreenieRaids]
+[15:27:45] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> :)
+[15:27:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Doomkiller664 > ;-;
+[15:27:51] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> MORE
+[15:27:56] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> MORE
+[15:28:01] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> thats all of it
+[15:28:03] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> MOREEEE
+[15:28:07] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> wait
+[15:28:08] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> lmao
+[15:28:11] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> I NEED TO GO
+[15:28:15] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> oh kk
+[15:28:18] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> now u have 4 and i have 4
+[15:28:31] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> thanks for replanting btw
+[15:28:37] [Server thread/INFO]: VoltZStarKeY issued server command: /tm tk smp
+[15:28:43] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> how to tp to smp
+[15:28:48] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> do
+[15:28:51] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> oh wait
+[15:28:56] [Server thread/INFO]: GreenieRaids issued server command: /mv tp (UR NAME)
+[15:29:05] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> do /mv tp (UR NAME)
+[15:29:10] [Server thread/INFO]: VoltZStarKeY issued server command: /mv tp smp
+[15:29:16] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> okay gtg
+[15:29:18] [Async Chat Thread - #13/INFO]: [smp]<VoltZStarKeY> see ya
+[15:29:19] [Server thread/INFO]: VoltZStarKeY lost connection: Disconnected
+[15:29:19] [Server thread/INFO]: VoltZStarKeY left the game
+[15:29:22] [Server thread/INFO]: AwesomeKidsYT issued server command: /clear
+[15:29:22] [Server thread/INFO]: [AwesomeKidsYT: Removed 9 items from player AwesomeKidsYT]
+[15:29:22] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> cya
+[15:29:36] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> awesome are u building another map?
+[15:29:39] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> henry
+[15:29:40] [Async Chat Thread - #13/INFO]: []<AwesomeKidsYT> yes
+[15:29:46] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> henry
+[15:29:48] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> ?
+[15:29:54] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> how u got diamonds
+[15:30:03] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> like u do some trick?
+[15:30:04] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> i know how to m ine brother
+[15:30:09] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> hmmm
+[15:30:11] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> HMMMM
+[15:30:13] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> UMMMM
+[15:30:20] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> thats a threat
+[15:30:24] [Server thread/INFO]: AwesomeKidsYT issued server command: /setblock ~ ~ ~ minecraft:pink_wool
+[15:30:24] [Server thread/INFO]: [AwesomeKidsYT: Changed the block at 160, 88, 97]
+[15:30:37] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> u know i feel i m the only guy noob at pvp
+[15:30:42] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> so i m scared
+[15:31:14] [Server thread/INFO]: HenryBoi2 issued server command: /tp GreenieRaids
+[15:31:14] [Server thread/INFO]: [HenryBoi2: Teleported HenryBoi2 to GreenieRaids]
+[15:31:34] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> i have a gift fr you
+[15:31:35] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> uhh
+[15:31:39] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> sure
+[15:31:41] [Async Chat Thread - #13/INFO]: []<AwesomeKidsYT> ok gtg
+[15:31:46] [Server thread/INFO]: AwesomeKidsYT issued server command: /save-all
+[15:31:47] [Server thread/INFO]: [AwesomeKidsYT: Saved the game]
+[15:31:49] [Server thread/INFO]: AwesomeKidsYT lost connection: Disconnected
+[15:31:49] [Server thread/INFO]: AwesomeKidsYT left the game
+[15:31:49] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> cya dude :)
+[15:31:49] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> :D
+[15:31:54] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> what gift?
+[15:32:01] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> that
+[15:32:06] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> are u serious
+[15:32:10] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> omg
+[15:32:15] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> ty
+[15:32:17] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> np
+[15:32:22] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> btw last room is mine
+[15:32:31] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> lol
+[15:32:38] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> xD
+[15:32:52] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> stopp
+[15:32:53] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> lol
+[15:33:44] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> UH
+[15:33:49] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> HMMM
+[15:33:50] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> OMG
+[15:33:58] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> seems like we had a war going on lol
+[15:34:09] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> LOL
+[15:34:22] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> hmm
+[15:34:30] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> if i hit u u hit me right?
+[15:34:50] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> insert manhunt song
+[15:35:04] [Server thread/INFO]: HenryBoi2 was slain by GreenieRaids
+[15:35:06] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> ggs
+[15:35:08] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> HAX
+[15:35:10] [Server thread/INFO]: HenryBoi2 has made the advancement [Sweet Dreams]
+[15:35:11] [Server thread/INFO]: GreenieRaids issued server command: /tp HenryBoi2 GreenieRaids
+[15:35:11] [Server thread/INFO]: [GreenieRaids: Teleported HenryBoi2 to GreenieRaids]
+[15:35:22] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> i m noob at pvp comeon
+[15:35:40] [Server thread/INFO]: GreenieRaids was slain by HenryBoi2
+[15:35:45] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> .-.
+[15:36:13] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> my pick
+[15:36:20] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> diamonds
+[15:36:29] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> my boots
+[15:36:40] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> my debris also
+[15:36:43] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> wha
+[15:36:47] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> lmao
+[15:36:50] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> i dont see any :)
+[15:36:51] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> lets sleep
+[15:37:09] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> hmm
+[15:37:12] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> zZzzzt
+[15:37:28] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> lets grief some property
+[15:37:51] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> what u think should i burn
+[15:37:56] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> yes ?
+[15:38:07] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> thats bannable
+[15:38:08] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> lol
+[15:38:23] [Server thread/INFO]: GreenieRaids issued server command: /kick HenryBoi2 FOR GRIEFING .-. JOIN BACK LMAO
+[15:38:23] [Server thread/INFO]: HenryBoi2 lost connection: FOR GRIEFING .-. JOIN BACK LMAO
+[15:38:23] [Server thread/INFO]: HenryBoi2 left the game
+[15:38:23] [Server thread/INFO]: [GreenieRaids: Kicked HenryBoi2: FOR GRIEFING .-. JOIN BACK LMAO]
+[15:38:27] [User Authenticator #20/INFO]: UUID of player HenryBoi2 is 59331950-84b9-378b-8005-ef835ce59738
+[15:38:27] [Server thread/INFO]: HenryBoi2 joined the game
+[15:38:27] [Server thread/INFO]: HenryBoi2[/127.0.0.1:43146] logged in with entity id 37009 at ([smp]20.618307941797507, 64.0, -135.00775068889214)
+[15:38:29] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> LOL
+[15:38:38] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> srry btw
+[15:38:47] [Server thread/INFO]: HenryBoi2 lost connection: Disconnected
+[15:38:47] [Server thread/INFO]: HenryBoi2 left the game
+[15:38:47] [User Authenticator #20/INFO]: UUID of player HenryBoi2 is 59331950-84b9-378b-8005-ef835ce59738
+[15:38:48] [Server thread/INFO]: HenryBoi2 joined the game
+[15:38:48] [Server thread/INFO]: HenryBoi2[/127.0.0.1:43454] logged in with entity id 37048 at ([smp]20.618307941797507, 64.0, -135.00775068889214)
+[15:38:56] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> uh
+[15:39:04] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> CMERE STEP DREAM
+[15:39:04] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> we are roommates
+[15:39:04] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> lol
+[15:39:08] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> lmao
+[15:39:48] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> OUR BEST ADVANCEMENT
+[15:39:53] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> lol
+[15:39:58] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> MY FOOD
+[15:40:03] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> MY STEAK U FORGOT TO GIVE
+[15:40:06] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> my breadd
+[15:40:20] [Server thread/INFO]: HenryBoi2 issued server command: /tp GreenieRaids @s
+[15:40:20] [Server thread/INFO]: [HenryBoi2: Teleported GreenieRaids to HenryBoi2]
+[15:40:29] [Server thread/INFO]: HenryBoi2 was slain by GreenieRaids
+[15:40:33] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> boi
+[15:40:38] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> U HAVE 37 DIAMONDS
+[15:40:39] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> HOW
+[15:40:39] [Server thread/INFO]: HenryBoi2 issued server command: /tp GreenieRaids
+[15:40:39] [Server thread/INFO]: [HenryBoi2: Teleported HenryBoi2 to GreenieRaids]
+[15:40:43] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> boi
+[15:40:48] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> i know how to find diamon ds
+[15:40:53] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> u take from creative?
+[15:40:54] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> or i just did it random ly .-.
+[15:41:02] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> did i even go to creative lmfao
+[15:41:02] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> hmm
+[15:41:18] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> that is 46
+[15:41:21] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> 25
+[15:41:22] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> 26
+[15:41:25] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> GIMME 32
+[15:41:29] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> uh it despawn actually
+[15:41:37] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> lies
+[15:41:48] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> no like uhh
+[15:41:51] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> um
+[15:41:58] [Async Chat Thread - #13/INFO]: [smp]<HenryBoi2> LEMME SEE
+[15:42:27] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> chill
+[15:42:37] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> wait wha
+[15:42:40] [Async Chat Thread - #13/INFO]: [smp]<GreenieRaids> come to hoem
+[15:44:46] [Server thread/INFO]: GreenieRaids has made the advancement [Cover Me With Diamonds]
+[15:44:54] [Async Chat Thread - #14/INFO]: [smp]<GreenieRaids> chill
+[15:44:57] [Async Chat Thread - #14/INFO]: [smp]<GreenieRaids> srry
+[15:46:32] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> stop
+[15:46:32] [Async Chat Thread - #15/INFO]: [smp]<HenryBoi2> EEEEEEEEEEEEEEEEEEEEEEEEE
+[15:46:36] [Async Chat Thread - #15/INFO]: [smp]<HenryBoi2> tf
+[15:46:41] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> srry :(
+[15:47:03] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> henry
+[15:47:05] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> lets
+[15:47:06] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> make
+[15:47:07] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> the
+[15:47:09] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> tower
+[15:47:16] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> our nation name is
+[15:47:18] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> EPIC BOOMER
+[15:48:00] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> why u
+[15:48:33] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> ok now peace
+[15:48:39] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> lets sleep
+[15:49:13] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> can we built a tower
+[15:49:47] [Async Chat Thread - #15/INFO]: [smp]<HenryBoi2> udj
+[15:49:49] [Async Chat Thread - #15/INFO]: [smp]<HenryBoi2> idk
+[15:50:39] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> ok so srry for ur griefing
+[15:50:58] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> sryr
+[15:51:02] [Async Chat Thread - #15/INFO]: [smp]<HenryBoi2> :/
+[15:51:23] [Server thread/INFO]: GreenieRaids issued server command: /gamemode creative
+[15:51:23] [Server thread/INFO]: [GreenieRaids: Set own game mode to Creative Mode]
+[15:51:28] [Async Chat Thread - #15/INFO]: [smp]<HenryBoi2> NO
+[15:51:35] [Server thread/INFO]: GreenieRaids issued server command: /gamemode survival
+[15:51:35] [Server thread/INFO]: [GreenieRaids: Set own game mode to Survival Mode]
+[15:51:38] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> sorry
+[15:51:51] [Async Chat Thread - #15/INFO]: [smp]<GreenieRaids> STOP MY EARS ARE BLEEDING
+[15:54:10] [Server thread/INFO]: GreenieRaids issued server command: /msg henry moderator of awesome smp server saying to change the server version to 1.16.4 so he can join with lunar
+[15:54:50] [Server thread/INFO]: GreenieRaids issued server command: /msg HenryBoi2 mod of awesome smp saying me to change the verion from 1.16.3 to 1.16.4 so he can join with lunar what i do ?
+[15:55:03] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> waht
+[15:55:15] [User Authenticator #21/INFO]: UUID of player Doomkiller664 is 6f2c68f6-30c9-317d-88fc-fdfb43f9eeb7
+[15:55:15] [Server thread/INFO]: Doomkiller664 joined the game
+[15:55:15] [Server thread/INFO]: Doomkiller664[/127.0.0.1:58290] logged in with entity id 39338 at ([world]75.5, 81.0, -500.5)
+[15:55:40] [Server thread/INFO]: HenryBoi2 issued server command: /tp Doomkiller664 @s
+[15:55:40] [Server thread/INFO]: [HenryBoi2: Teleported Doomkiller664 to HenryBoi2]
+[15:55:42] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> hi
+[15:56:04] [Async Chat Thread - #16/INFO]: [smp]<Doomkiller664> still 2 fps
+[15:56:16] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> hmm
+[15:56:25] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> try changing ur videosetting to lower
+[15:56:44] [Async Chat Thread - #16/INFO]: [smp]<Doomkiller664> it is at max low
+[15:57:05] [Async Chat Thread - #16/INFO]: [smp]<Doomkiller664> sooo should i chnage it to 1.16.4 and try?
+[15:57:17] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> like change resoulotion to 10 or smth and also change graphics from fancy to fast
+[15:57:36] [Async Chat Thread - #16/INFO]: [smp]<Doomkiller664> i k it is at max low
+[15:57:43] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> wait no like only AwesomeKidYt can
+[15:57:45] [Server thread/INFO]: HenryBoi2 has made the advancement [A Seedy Place]
+[15:57:46] [Async Chat Thread - #16/INFO]: [smp]<Doomkiller664> 2 chunks loaded
+[15:57:56] [Async Chat Thread - #16/INFO]: [smp]<Doomkiller664> f
+[15:58:05] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> so u thinkign if u come with lunar
+[15:58:06] [Async Chat Thread - #16/INFO]: [smp]<Doomkiller664> can you add mutil version
+[15:58:10] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> ur fps will ne high
+[15:58:16] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> sure i will try to
+[15:58:23] [Async Chat Thread - #16/INFO]: [smp]<Doomkiller664> i will try with lunar
+[15:58:25] [Server thread/INFO]: Doomkiller664 lost connection: Disconnected
+[15:58:25] [Server thread/INFO]: Doomkiller664 left the game
+[15:58:34] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> henry
+[15:58:46] [Server thread/INFO]: GreenieRaids issued server command: /tp HenryBoi2 GreenieRaids
+[15:58:46] [Server thread/INFO]: [GreenieRaids: Teleported HenryBoi2 to GreenieRaids]
+[15:58:53] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> why u killing me :/
+[15:58:58] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> :/
+[15:59:13] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> im being my sis when he just played mc lol
+[15:59:23] [Server thread/INFO]: GreenieRaids issued server command: /give @a minecraft:cooked_beef 100
+[15:59:23] [Server thread/INFO]: [GreenieRaids: Gave 100 [Steak] to 2]
+[15:59:27] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> NOE
+[15:59:28] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> NOBODY SAW THAT
+[15:59:29] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> ok
+[15:59:31] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> ok
+[15:59:35] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> ok
+[15:59:35] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> our small secrect
+[16:00:05] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> im eating rotten flesh :D
+[16:00:48] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> :D
+[16:00:51] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> :d
+[16:01:13] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> lets mine diamonds together lets go
+[16:01:19] [Server thread/INFO]: GreenieRaids issued server command: /tp HenryBoi2 GreenieRaids
+[16:01:19] [Server thread/INFO]: [GreenieRaids: Teleported HenryBoi2 to GreenieRaids]
+[16:01:22] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> '
+[16:01:27] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> follow
+[16:01:33] [Server thread/INFO]: HenryBoi2 issued server command: /msg GreenieRaids i actually used xray
+[16:01:56] [Server thread/INFO]: GreenieRaids issued server command: /msg HenryBoi2 time to use /ban ig :)
+[16:02:02] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> oh ok
+[16:02:04] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> lmao
+[16:02:08] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> just dont use it again
+[16:02:30] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> lmfao
+[16:02:32] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> lol
+[16:03:07] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> uh
+[16:03:10] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> uhhh
+[16:03:14] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> uhm
+[16:03:17] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> GIMME THA
+[16:03:19] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> w
+[16:03:21] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> umm
+[16:03:27] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> GIMME
+[16:03:28] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> EEEEEEEEE
+[16:03:30] [Async Chat Thread - #16/INFO]: [smp]<GreenieRaids> lol
+[16:03:30] [Async Chat Thread - #16/INFO]: [smp]<HenryBoi2> ty
+[16:04:16] [Server thread/INFO]: GreenieRaids issued server command: /msg HenryBoi2 u using xray?
+[16:04:26] [Server thread/INFO]: HenryBoi2 issued server command: /msg GreenieRaids no
+[16:04:39] [Async Chat Thread - #17/INFO]: [smp]<HenryBoi2> you want me to use?
+[16:04:43] [Async Chat Thread - #17/INFO]: [smp]<GreenieRaids> noo
+[16:04:47] [Async Chat Thread - #17/INFO]: [smp]<HenryBoi2> lmfao
+[16:04:53] [Async Chat Thread - #17/INFO]: [smp]<GreenieRaids> .-.
+[16:05:26] [Async Chat Thread - #17/INFO]: [smp]<HenryBoi2> WTFS}
+[16:05:30] [Async Chat Thread - #17/INFO]: [smp]<HenryBoi2> 1 iron
+[16:05:35] [Async Chat Thread - #17/INFO]: [smp]<GreenieRaids> lmao
+[16:06:47] [Async Chat Thread - #18/INFO]: [smp]<HenryBoi2> I LIKE DEZ NUTZ
+[16:06:52] [Async Chat Thread - #18/INFO]: [smp]<GreenieRaids> umm
+[16:08:09] [Async Chat Thread - #19/INFO]: [smp]<HenryBoi2> OMG 10 DIAMOPKSGOFNUJ
+[16:08:11] [Async Chat Thread - #19/INFO]: [smp]<GreenieRaids> dude how u got so fast
+[16:08:16] [Async Chat Thread - #19/INFO]: [smp]<GreenieRaids> SUS
+[16:08:17] [Async Chat Thread - #19/INFO]: [smp]<GreenieRaids> SUS
+[16:08:29] [Async Chat Thread - #19/INFO]: [smp]<HenryBoi2> u kissing me or smth>
+[16:09:04] [Async Chat Thread - #19/INFO]: [smp]<HenryBoi2> 40
+[16:09:05] [Async Chat Thread - #19/INFO]: [smp]<HenryBoi2> iron
+[16:09:12] [Async Chat Thread - #19/INFO]: [smp]<GreenieRaids> hax
+[16:09:16] [Async Chat Thread - #19/INFO]: [smp]<HenryBoi2> no u
+[16:09:16] [Async Chat Thread - #19/INFO]: [smp]<GreenieRaids> lol jk
+[16:09:31] [Async Chat Thread - #19/INFO]: [smp]<HenryBoi2> ./kill GreenieRaids
+[16:09:36] [Async Chat Thread - #19/INFO]: [smp]<HenryBoi2> loll
+[16:09:55] [Async Chat Thread - #19/INFO]: [smp]<HenryBoi2> i like yadad
+[16:09:59] [Async Chat Thread - #19/INFO]: [smp]<GreenieRaids> brb 5min
+[16:11:19] [Async Chat Thread - #20/INFO]: [smp]<HenryBoi2> :D
+[16:11:33] [Async Chat Thread - #20/INFO]: [smp]<GreenieRaids> lol
+[16:11:58] [Async Chat Thread - #20/INFO]: [smp]<GreenieRaids> lol
+[16:12:39] [Server thread/INFO]: GreenieRaids was slain by HenryBoi2
+[16:12:45] [Async Chat Thread - #20/INFO]: [smp]<GreenieRaids> noo
+[16:13:18] [Server thread/INFO]: HenryBoi2 issued server command: /tp GreenieRaids @s
+[16:13:18] [Server thread/INFO]: [HenryBoi2: Teleported GreenieRaids to HenryBoi2]

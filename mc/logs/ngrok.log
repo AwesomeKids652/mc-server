@@ -1,0 +1,68 @@
+t=2021-04-13T12:22:45+0000 lvl=info msg="no configuration paths supplied"
+t=2021-04-13T12:22:45+0000 lvl=info msg="using configuration at default config path" path=/home/runner/.ngrok2/ngrok.yml
+t=2021-04-13T12:22:45+0000 lvl=info msg="open config file" path=/home/runner/.ngrok2/ngrok.yml err=nil
+t=2021-04-13T12:22:45+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2021-04-13T12:22:46+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2021-04-13T12:22:46+0000 lvl=info msg="client session established" obj=csess id=4fab9611bda6
+t=2021-04-13T12:22:46+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:1025 url=tcp://0.tcp.in.ngrok.io:13064
+t=2021-04-13T12:22:47+0000 lvl=info msg=start pg=/api/tunnels id=f2022f4f332de910
+t=2021-04-13T12:22:47+0000 lvl=info msg=end pg=/api/tunnels id=f2022f4f332de910 status=200 dur=1.182324ms
+t=2021-04-13T12:24:04+0000 lvl=info msg="join connections" obj=join id=0114ae949f14 l=127.0.0.1:1025 r=180.243.3.57:39649
+t=2021-04-13T12:24:06+0000 lvl=info msg="join connections" obj=join id=23f934eb74fd l=127.0.0.1:1025 r=180.243.3.57:58700
+t=2021-04-13T12:24:10+0000 lvl=info msg="join connections" obj=join id=c75449f5eb93 l=127.0.0.1:1025 r=45.251.33.122:1305
+t=2021-04-13T12:24:12+0000 lvl=info msg="join connections" obj=join id=6be69ef68e9d l=127.0.0.1:1025 r=39.34.130.135:41046
+t=2021-04-13T12:37:30+0000 lvl=info msg="join connections" obj=join id=d6b0c519d024 l=127.0.0.1:1025 r=45.251.33.122:1205
+t=2021-04-13T12:37:31+0000 lvl=info msg="join connections" obj=join id=4015f3458cda l=127.0.0.1:1025 r=45.251.33.122:1284
+t=2021-04-13T12:38:01+0000 lvl=info msg="join connections" obj=join id=15dd6d5d2325 l=127.0.0.1:1025 r=45.251.33.122:1292
+t=2021-04-13T12:52:58+0000 lvl=info msg="join connections" obj=join id=79a0a5eaf98c l=127.0.0.1:1025 r=180.243.3.57:40153
+t=2021-04-13T12:53:00+0000 lvl=info msg="join connections" obj=join id=30e14c6db8ce l=127.0.0.1:1025 r=180.243.3.57:58854
+t=2021-04-13T13:05:29+0000 lvl=info msg="join connections" obj=join id=9b9320dca608 l=127.0.0.1:1025 r=39.34.130.135:41028
+t=2021-04-13T13:07:16+0000 lvl=info msg="join connections" obj=join id=e2725000bf38 l=127.0.0.1:1025 r=180.243.3.57:59190
+t=2021-04-13T13:14:32+0000 lvl=info msg="join connections" obj=join id=26239be0aa0a l=127.0.0.1:1025 r=39.34.130.135:41002
+t=2021-04-13T13:20:10+0000 lvl=info msg="join connections" obj=join id=5f8c7bf75de7 l=127.0.0.1:1025 r=180.243.3.57:59316
+t=2021-04-13T13:20:11+0000 lvl=info msg="join connections" obj=join id=18870ee1eb6d l=127.0.0.1:1025 r=180.243.3.57:42419
+t=2021-04-13T13:48:50+0000 lvl=info msg="join connections" obj=join id=954f4410e8e9 l=127.0.0.1:1025 r=45.251.33.122:1833
+t=2021-04-13T13:48:52+0000 lvl=info msg="join connections" obj=join id=4f58d8310939 l=127.0.0.1:1025 r=45.251.33.122:1842
+t=2021-04-13T13:51:18+0000 lvl=info msg="join connections" obj=join id=9c84bcafd713 l=127.0.0.1:1025 r=45.251.33.122:1305
+t=2021-04-13T13:51:20+0000 lvl=info msg="join connections" obj=join id=a12b4d44c57f l=127.0.0.1:1025 r=45.251.33.122:1331
+t=2021-04-13T13:57:54+0000 lvl=info msg="join connections" obj=join id=75d42a5530aa l=127.0.0.1:1025 r=45.251.33.122:1952
+t=2021-04-13T13:57:55+0000 lvl=info msg="join connections" obj=join id=a27d39d1c950 l=127.0.0.1:1025 r=45.251.33.122:1963
+t=2021-04-13T13:58:48+0000 lvl=info msg="join connections" obj=join id=3726eaf01c94 l=127.0.0.1:1025 r=45.251.33.122:1164
+t=2021-04-13T13:58:51+0000 lvl=info msg="join connections" obj=join id=a3b23919e8cb l=127.0.0.1:1025 r=45.251.33.122:1285
+t=2021-04-13T14:09:06+0000 lvl=info msg="join connections" obj=join id=adf71ca7ed29 l=127.0.0.1:1025 r=183.83.144.77:8654
+t=2021-04-13T14:09:11+0000 lvl=info msg="join connections" obj=join id=32deadeea447 l=127.0.0.1:1025 r=183.83.144.77:9020
+t=2021-04-13T14:19:37+0000 lvl=info msg="join connections" obj=join id=e67793cd4972 l=127.0.0.1:1025 r=183.83.144.77:8174
+t=2021-04-13T14:19:39+0000 lvl=info msg="join connections" obj=join id=d64f85d44a8a l=127.0.0.1:1025 r=183.83.144.77:7752
+t=2021-04-13T14:27:20+0000 lvl=info msg="join connections" obj=join id=a07149e2c9de l=127.0.0.1:1025 r=45.251.33.122:1945
+t=2021-04-13T14:33:06+0000 lvl=info msg="join connections" obj=join id=61177c739e42 l=127.0.0.1:1025 r=183.83.144.77:8168
+t=2021-04-13T14:33:08+0000 lvl=info msg="join connections" obj=join id=ebf945bf789a l=127.0.0.1:1025 r=183.83.144.77:7775
+t=2021-04-13T14:40:02+0000 lvl=info msg="join connections" obj=join id=3072ac8eabcb l=127.0.0.1:1025 r=183.83.144.77:7497
+t=2021-04-13T14:55:42+0000 lvl=info msg="join connections" obj=join id=a37ed7936cf6 l=127.0.0.1:1025 r=39.34.130.135:41021
+t=2021-04-13T14:56:12+0000 lvl=info msg="join connections" obj=join id=b709c6b5afe4 l=127.0.0.1:1025 r=39.34.130.135:41073
+t=2021-04-13T14:56:16+0000 lvl=info msg="join connections" obj=join id=411ced4f6ecb l=127.0.0.1:1025 r=39.34.130.135:41021
+t=2021-04-13T15:03:07+0000 lvl=info msg="join connections" obj=join id=ef3d7fb9481f l=127.0.0.1:1025 r=180.243.3.57:60462
+t=2021-04-13T15:03:07+0000 lvl=info msg="join connections" obj=join id=6c74ae08d567 l=127.0.0.1:1025 r=180.243.3.57:51179
+t=2021-04-13T15:14:39+0000 lvl=info msg="join connections" obj=join id=549e00081033 l=127.0.0.1:1025 r=180.243.3.57:60567
+t=2021-04-13T15:17:35+0000 lvl=info msg="join connections" obj=join id=cc7410ce1a60 l=127.0.0.1:1025 r=183.83.144.77:8244
+t=2021-04-13T15:17:41+0000 lvl=info msg="join connections" obj=join id=7bfd8c51b21d l=127.0.0.1:1025 r=183.83.144.77:8674
+t=2021-04-13T15:31:59+0000 lvl=info msg="join connections" obj=join id=d896cb04cc4a l=127.0.0.1:1025 r=45.251.33.122:1322
+t=2021-04-13T15:35:54+0000 lvl=info msg="join connections" obj=join id=03073b86e270 l=127.0.0.1:1025 r=99.22.52.215:57850
+t=2021-04-13T15:36:33+0000 lvl=info msg="join connections" obj=join id=bd08c2d42637 l=127.0.0.1:1025 r=99.22.52.215:57854
+t=2021-04-13T15:36:33+0000 lvl=info msg="join connections" obj=join id=54512d150cef l=127.0.0.1:1025 r=99.22.52.215:57853
+t=2021-04-13T15:36:48+0000 lvl=info msg="join connections" obj=join id=ac3bb1654707 l=127.0.0.1:1025 r=99.22.52.215:57855
+t=2021-04-13T15:37:03+0000 lvl=info msg="join connections" obj=join id=04a33a885996 l=127.0.0.1:1025 r=99.22.52.215:57864
+t=2021-04-13T15:37:18+0000 lvl=info msg="join connections" obj=join id=cdd8175703c2 l=127.0.0.1:1025 r=99.22.52.215:57866
+t=2021-04-13T15:37:37+0000 lvl=info msg="join connections" obj=join id=c6369484ab96 l=127.0.0.1:1025 r=99.22.52.215:57877
+t=2021-04-13T15:37:57+0000 lvl=info msg="join connections" obj=join id=f38f9822eb52 l=127.0.0.1:1025 r=99.22.52.215:57901
+t=2021-04-13T15:38:08+0000 lvl=info msg="join connections" obj=join id=416b14802b1c l=127.0.0.1:1025 r=99.22.52.215:57911
+t=2021-04-13T15:38:22+0000 lvl=info msg="join connections" obj=join id=500ae877d03d l=127.0.0.1:1025 r=99.22.52.215:57914
+t=2021-04-13T15:38:27+0000 lvl=info msg="join connections" obj=join id=34badc753da3 l=127.0.0.1:1025 r=180.243.3.57:60718
+t=2021-04-13T15:38:37+0000 lvl=info msg="join connections" obj=join id=6b504910c5c8 l=127.0.0.1:1025 r=99.22.52.215:57915
+t=2021-04-13T15:38:47+0000 lvl=info msg="join connections" obj=join id=9d735b2f2a03 l=127.0.0.1:1025 r=180.243.3.57:54313
+t=2021-04-13T15:38:52+0000 lvl=info msg="join connections" obj=join id=b5ab2d7b708e l=127.0.0.1:1025 r=99.22.52.215:57916
+t=2021-04-13T15:39:08+0000 lvl=info msg="join connections" obj=join id=05869c8708b6 l=127.0.0.1:1025 r=99.22.52.215:57917
+t=2021-04-13T15:42:03+0000 lvl=info msg="join connections" obj=join id=e7413a9491e4 l=127.0.0.1:1025 r=99.22.52.215:57973
+t=2021-04-13T15:42:07+0000 lvl=info msg="join connections" obj=join id=f42109069815 l=127.0.0.1:1025 r=99.22.52.215:57977
+t=2021-04-13T15:54:53+0000 lvl=info msg="join connections" obj=join id=62f9cc2608af l=127.0.0.1:1025 r=99.22.52.215:58192
+t=2021-04-13T15:55:15+0000 lvl=info msg="join connections" obj=join id=7cb1f9f889cc l=127.0.0.1:1025 r=99.22.52.215:58198
+t=2021-04-13T16:05:06+0000 lvl=info msg="join connections" obj=join id=5e922db3c73c l=127.0.0.1:1025 r=99.22.52.215:58298
